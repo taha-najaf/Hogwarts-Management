@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Hogwarts",
+    "\\Hogwarts\\Hogwarts"
   ],
+  "SelectedNode": "\\Hogwarts\\Hogwarts\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
