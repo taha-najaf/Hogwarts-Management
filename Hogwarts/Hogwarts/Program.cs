@@ -2,104 +2,120 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hogwarts
 {
-    internal static class Program
+
+    public static class Program
     {
+        public static List<Student> ListOfStudents { get; set; }
+        public static List<Teacher> ListOfTeachers { get; set; }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
-            //================================================================start by read from file
-            List<AllowedPersons> ListOfAllowedPersons = new List<AllowedPersons>();
-            int slytherinDorm = 110, ravenclawDorm = 110, gryffindorDorm = 110, hufflepuffDorm = 110;
+            //****************************************************************all instances
+            Dumbledore dumbledore = new Dumbledore();
+            Teacher professor = new Teacher();
+            Student student = new Student();
+            List<AllowedPersons> persons = new List<AllowedPersons>();
+            Plant plant = new Plant();
+            List<Lesson> lessons = new List<Lesson>();
+            List<Teacher> ListOfTeachers = new List<Teacher>();
+            List<Student> ListOfStudents = new List<Student>();
+            Random random = new Random();
+            int SlytherinDormitoryCode = 110;
+            int RavenclawDormitoryCode = 110;
+            int GryffindorDormitoryCode = 110;
+            int HufflepuffDormitoryCode = 110;
+            //**************************************************************for reading file
+
             using (StreamReader file = new StreamReader("TXT_DATA.tsv"))
             {
                 string ln;
-
                 while ((ln = file.ReadLine()) != null)
                 {
-                    AllowedPersons allowedPersons = new AllowedPersons();
+                    AllowedPersons AllowedPersons = new AllowedPersons();
+                    student = new Student();
+                    professor = new Teacher();
                     string[] human = ln.Split('\t').ToArray<string>();
-
-                    allowedPersons.FirstName = human[0];
-                    allowedPersons.LastName = human[1];
-                    allowedPersons.Birthday = human[2];
-                    allowedPersons.Gender = human[3];
-                    allowedPersons.FatherName = human[4];
-                    allowedPersons.Username = human[5];
-                    allowedPersons.Password = human[6];
-                    //----------------------for breed or race type
-                    if (human[7] == "HalfBlood")
-                        allowedPersons.breedType = BreedType.HalfBlood;
-                    else if (human[7] == "PureBlood")
-                        allowedPersons.breedType = BreedType.PureBlood;
-                    else if (human[7] == "MuggleBlood")
-                        allowedPersons.breedType = BreedType.MuggleBlood;
-                    //----------------------for role
+                    AllowedPersons.FirstName = human[0];
+                    AllowedPersons.LastName = human[1];
+                    AllowedPersons.Birthday = human[2];
+                    AllowedPersons.Gender = human[3];
+                    AllowedPersons.FatherName = human[4];
+                    AllowedPersons.Username = human[5];
+                    AllowedPersons.Password = human[6];
+                    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~for blood type
+                    if (human[7] == "Pure blood")
+                        AllowedPersons.breedType = BreedType.PureBlood;
+                    else if (human[7] == "Half blood")
+                        AllowedPersons.breedType = BreedType.HalfBlood;
+                    else if (human[7] == "Muggle blood")
+                        AllowedPersons.breedType = BreedType.MuggleBlood;
+                    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~for role type
                     if (human[8] == "teacher")
                     {
-                        Random random = new Random();
-                        allowedPersons.Role = Role.teacher;
                         int baggage = random.Next(2);//for baggage
                         if (baggage == 0)
-                            allowedPersons.HaveBaggage = true;
+                            AllowedPersons.HaveBaggage = true;
                         else
-                            allowedPersons.HaveBaggage = false;
-                        allowedPersons.Pet = (Pet)random.Next(0, 3);//for pet
-                        allowedPersons.GroupName = (GroupType)random.Next(0, 4);
+                            AllowedPersons.HaveBaggage = false;
+                        AllowedPersons.Pet = (Pet)random.Next(0, 3);//for pet
+                        AllowedPersons.GroupName = (GroupType)random.Next(0, 3);//for group name
+                        AllowedPersons.Role = Role.teacher;
+                        professor.Role = Role.teacher;
+                        professor.FirstName = AllowedPersons.FirstName;
+                        professor.LastName = AllowedPersons.LastName;
+                        professor.Birthday = AllowedPersons.Birthday;
+                        professor.Gender = AllowedPersons.Gender;
+                        professor.FatherName = AllowedPersons.FatherName;
+                        professor.Username = AllowedPersons.Username;
+                        professor.Password = AllowedPersons.Password;
+                        professor.Pet = AllowedPersons.Pet;
+                        professor.HaveBaggage = AllowedPersons.HaveBaggage;
+                        professor.GroupName = AllowedPersons.GroupName;
+                        ListOfTeachers.Add(professor);
                     }
                     else if (human[8] == "student")
                     {
-                        Random random = new Random();
-                        allowedPersons.Role = Role.student;
                         int baggage = random.Next(2);//for baggage
                         if (baggage == 0)
-                            allowedPersons.HaveBaggage = true;
+                            AllowedPersons.HaveBaggage = true;
                         else
-                            allowedPersons.HaveBaggage = false;
-                        allowedPersons.Pet = (Pet)random.Next(0, 3);//for pet
-                        allowedPersons.GroupName = (GroupType)random.Next(0, 4);
-
+                            AllowedPersons.HaveBaggage = false;
+                        AllowedPersons.Pet = (Pet)random.Next(0, 3);//for pet
+                        AllowedPersons.GroupName = (GroupType)random.Next(0, 3);//for group name
+                        AllowedPersons.Role = Role.student;
+                        student.Role = Role.student;
+                        student.FirstName = AllowedPersons.FirstName;
+                        student.LastName = AllowedPersons.LastName;
+                        student.Birthday = AllowedPersons.Birthday;
+                        student.Gender = AllowedPersons.Gender;
+                        student.FatherName = AllowedPersons.FatherName;
+                        student.Username = AllowedPersons.Username;
+                        student.Password = AllowedPersons.Password;
+                        student.Pet = AllowedPersons.Pet;
+                        student.HaveBaggage = AllowedPersons.HaveBaggage;
+                        student.GroupName = AllowedPersons.GroupName;
+                       
+                        ListOfStudents.Add(student);
                     }
-
-                    ListOfAllowedPersons.Add(allowedPersons);
+                    persons.Add(AllowedPersons);
                 }
                 file.Close();
             }
-            //==========================find teachers
-            List<Teacher> teachers = new List<Teacher>();
-            foreach (var AllowPerson in ListOfAllowedPersons)
-            {
-                if (AllowPerson.Role == Role.teacher)
-                {
-                    Teacher teacher = new Teacher(AllowPerson.FirstName, AllowPerson.LastName, AllowPerson.Birthday, AllowPerson.Gender, AllowPerson.FatherName
-                        , AllowPerson.Username, AllowPerson.Password, AllowPerson.breedType, Role.teacher);
-                    teachers.Add(teacher);
-                }
-            }
-            //=========================find student
-            List<Student> students = new List<Student>();
-            foreach (var AllowPerson in ListOfAllowedPersons)
-            {
-                if (AllowPerson.Role == Role.student)
-                {
-                    Random random = new Random();
-                    int term = random.Next(1, 9);
-                    Student student = new Student(AllowPerson.FirstName, AllowPerson.LastName, AllowPerson.Birthday, AllowPerson.Gender, AllowPerson.FatherName
-                        , AllowPerson.Username, AllowPerson.Password, AllowPerson.breedType, Role.student, term);
 
-                    students.Add((student));
-                }
-            }
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run();
+
         }
+       
     }
 }
