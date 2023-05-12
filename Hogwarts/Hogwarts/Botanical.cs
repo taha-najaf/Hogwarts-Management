@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hogwarts
 {
-    internal class Botanical
+    public class Botanical
     {
+        public static List<string> ListOfFirstSemesterplants { get; set; }
+        public static List<string> ListOfSecondSemesterplants { get; set; }
+        public static List<string> ListOfThirdSemesterplants { get; set; }
+        public static List<string> ListOfFourthSemesterplants { get; set; }
     }
 }

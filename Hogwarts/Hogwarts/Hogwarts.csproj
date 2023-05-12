@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AllowedPersons.cs" />
     <Compile Include="Botanical.cs" />
+    <Compile Include="BreedType.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
