@@ -8,8 +8,10 @@ namespace Hogwarts
 {
     public class Dumbledore : AllowedPersons
     {
-        Dormitory DormitoryList;
         public List<string> letterFromStudents { get; set; }
+        public string Username="Admin";
+        public string Password="****";
+        
         public static void SendLetterToStudents(List<Student> persons)//need cabin and sit number
         {
         }

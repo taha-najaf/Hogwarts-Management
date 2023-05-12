@@ -41,6 +41,7 @@ namespace Hogwarts
                 MessageBox.Show("Please enter username", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else if (PasswordTextbox.Text == string.Empty)
                 MessageBox.Show("Please enter password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
         }
 
         private void Resetlabel_Click(object sender, EventArgs e)
