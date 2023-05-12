@@ -52,6 +52,7 @@
     <Compile Include="Chemistry.cs" />
     <Compile Include="Dormitory.cs" />
     <Compile Include="Group.cs" />
+    <Compile Include="GroupType.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

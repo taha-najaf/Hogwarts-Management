@@ -8,6 +8,10 @@ namespace Hogwarts
 {
     public class Group
     {
+        public GroupType GroupType { get; set; }
+        public int score { get; set; }
+        public List<string> GroupMembers { get; set; }
+        public List<string> QuidditchPlayers { get; set; }
 
     }
 }
