@@ -48,5 +48,10 @@ namespace Hogwarts
             UsernameTextbox.Text = string.Empty;
             PasswordTextbox.Text = string.Empty;
         }
+
+        private void UsernameTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
