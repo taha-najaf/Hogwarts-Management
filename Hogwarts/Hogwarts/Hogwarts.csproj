@@ -51,6 +51,7 @@
     <Compile Include="BreedType.cs" />
     <Compile Include="Chemistry.cs" />
     <Compile Include="Dormitory.cs" />
+    <Compile Include="Group.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
