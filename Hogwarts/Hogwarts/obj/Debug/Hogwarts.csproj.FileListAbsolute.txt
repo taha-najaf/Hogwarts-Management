@@ -3,9 +3,9 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\Hogwarts.exe
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\Hogwarts.pdb
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.AssemblyReference.cache
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.SuggestedBindingRedirects.cache
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.LoginForm.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.Properties.Resources.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.GenerateResource.cache
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.CoreCompileInputs.cache
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.exe
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.pdb
-D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.LoginForm.resources

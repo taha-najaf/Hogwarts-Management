@@ -40,16 +40,13 @@
             // 
             // NameSchoolLabel
             // 
-            this.NameSchoolLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.NameSchoolLabel.AutoSize = true;
             this.NameSchoolLabel.BackColor = System.Drawing.Color.Transparent;
-            this.NameSchoolLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameSchoolLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameSchoolLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.NameSchoolLabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.NameSchoolLabel.Location = new System.Drawing.Point(104, 9);
+            this.NameSchoolLabel.Location = new System.Drawing.Point(132, 135);
             this.NameSchoolLabel.Name = "NameSchoolLabel";
-            this.NameSchoolLabel.Size = new System.Drawing.Size(607, 32);
+            this.NameSchoolLabel.Size = new System.Drawing.Size(985, 116);
             this.NameSchoolLabel.TabIndex = 0;
             this.NameSchoolLabel.Text = "Hogwarts School of Witchcraft and Wizardry";
             this.NameSchoolLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -61,11 +58,11 @@
             this.Username.BackColor = System.Drawing.Color.CadetBlue;
             this.Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Username.Location = new System.Drawing.Point(328, 277);
+            this.Username.Location = new System.Drawing.Point(303, 394);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(146, 25);
+            this.Username.Size = new System.Drawing.Size(117, 25);
             this.Username.TabIndex = 1;
-            this.Username.Text = "Username......";
+            this.Username.Text = "Username:";
             this.Username.Click += new System.EventHandler(this.Username_Click);
             // 
             // label1
@@ -74,7 +71,7 @@
             this.label1.BackColor = System.Drawing.Color.CadetBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(339, 379);
+            this.label1.Location = new System.Drawing.Point(303, 483);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 25);
             this.label1.TabIndex = 2;
@@ -86,19 +83,20 @@
             this.UsernameTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UsernameTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.UsernameTextbox.Location = new System.Drawing.Point(313, 305);
+            this.UsernameTextbox.Location = new System.Drawing.Point(468, 394);
             this.UsernameTextbox.Name = "UsernameTextbox";
-            this.UsernameTextbox.Size = new System.Drawing.Size(261, 22);
+            this.UsernameTextbox.Size = new System.Drawing.Size(248, 22);
             this.UsernameTextbox.TabIndex = 3;
             this.UsernameTextbox.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
             // 
             // PasswordTextbox
             // 
             this.PasswordTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.PasswordTextbox.Location = new System.Drawing.Point(313, 407);
+            this.PasswordTextbox.Location = new System.Drawing.Point(468, 487);
             this.PasswordTextbox.Name = "PasswordTextbox";
-            this.PasswordTextbox.Size = new System.Drawing.Size(261, 22);
+            this.PasswordTextbox.Size = new System.Drawing.Size(248, 22);
             this.PasswordTextbox.TabIndex = 3;
+            this.PasswordTextbox.TextChanged += new System.EventHandler(this.PasswordTextbox_TextChanged);
             // 
             // LoginButtun
             // 
@@ -107,7 +105,7 @@
             this.LoginButtun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LoginButtun.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButtun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.LoginButtun.Location = new System.Drawing.Point(589, 341);
+            this.LoginButtun.Location = new System.Drawing.Point(792, 417);
             this.LoginButtun.Name = "LoginButtun";
             this.LoginButtun.Size = new System.Drawing.Size(122, 45);
             this.LoginButtun.TabIndex = 4;
@@ -121,7 +119,7 @@
             this.Resetlabel.BackColor = System.Drawing.Color.Transparent;
             this.Resetlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resetlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.Resetlabel.Location = new System.Drawing.Point(726, 351);
+            this.Resetlabel.Location = new System.Drawing.Point(819, 483);
             this.Resetlabel.Name = "Resetlabel";
             this.Resetlabel.Size = new System.Drawing.Size(62, 25);
             this.Resetlabel.TabIndex = 5;
@@ -135,7 +133,7 @@
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.Resetlabel);
             this.Controls.Add(this.LoginButtun);
             this.Controls.Add(this.PasswordTextbox);
@@ -144,8 +142,10 @@
             this.Controls.Add(this.Username);
             this.Controls.Add(this.NameSchoolLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -13,9 +13,9 @@ namespace Hogwarts
             
             if (Username == Dumbledore.Username && Password == Dumbledore.Password)
                 return 1;
-            else if (Program.ListOfStudents.Any(person => Username == person.Username && Password == person.Password))//Linq Query
+            else if (Student.StusentsList.Any(person => Username == person.Username && Password == person.Password))//Linq Query
                 return 2;
-            else if (Program.ListOfTeachers.Any(person => Username == person.Username && Password == person.Password))//Linq Query
+            else if (Teacher.TeacherList.Any(teacher => Username == teacher.Username && Password == teacher.Password))//Linq Query
                 return 3;
             else
                 return 0;

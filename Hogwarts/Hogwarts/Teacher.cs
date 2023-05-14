@@ -10,6 +10,7 @@ namespace Hogwarts
     {
         public bool SimultaneousTeaching { get; set; }
         public Lesson Lesson { get; set; }
+        public static List<Teacher> TeacherList { get; set; }=new List<Teacher>();
         
         public void DefineLesson(List<Lesson> lessons, List<Teacher> professor)
         {
