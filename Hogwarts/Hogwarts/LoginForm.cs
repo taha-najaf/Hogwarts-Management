@@ -44,12 +44,20 @@ namespace Hogwarts
             if (result == 0)
                 MessageBox.Show("User not found", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else if (result == 1)
-                MessageBox.Show("Dumbledore");
-            else if (result == 2)
-                MessageBox.Show("Student");
-            else if (result == 3)
-                MessageBox.Show("Teacher");
+            {
+                //MessageBox.Show("Dumbledore");
+                DumbledoreForm dumbledoreForm = new DumbledoreForm();
+                dumbledoreForm.ShowDialog();
 
+            }
+            else if (result == 2)
+            {
+                MessageBox.Show("Student");
+            }
+            else if (result == 3)
+            { 
+                    MessageBox.Show("Teacher");
+            }
         }
 
         private void Resetlabel_Click(object sender, EventArgs e)

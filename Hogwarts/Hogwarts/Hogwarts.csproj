@@ -53,6 +53,12 @@
     <Compile Include="Chemistry.cs" />
     <Compile Include="Dormitory.cs" />
     <Compile Include="Dumbledore.cs" />
+    <Compile Include="DumbledoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DumbledoreForm.Designer.cs">
+      <DependentUpon>DumbledoreForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Group.cs" />
     <Compile Include="GroupType.cs" />
     <Compile Include="Lesson.cs" />
@@ -73,6 +79,9 @@
     <Compile Include="Student.cs" />
     <Compile Include="Teacher.cs" />
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="DumbledoreForm.resx">
+      <DependentUpon>DumbledoreForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +93,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -97,6 +107,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6Q3N0q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6Q3N0q1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbledore-addresses-students-in-the-great-hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbledore-addresses-students-in-the-great-hall1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbledore-addresses-students-in-the-great-hall2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbledore-addresses-students-in-the-great-hall3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

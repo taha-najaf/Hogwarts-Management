@@ -87,6 +87,7 @@
             this.UsernameTextbox.Name = "UsernameTextbox";
             this.UsernameTextbox.Size = new System.Drawing.Size(248, 22);
             this.UsernameTextbox.TabIndex = 3;
+            this.UsernameTextbox.Tag = "0";
             this.UsernameTextbox.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
             // 
             // PasswordTextbox
@@ -96,6 +97,7 @@
             this.PasswordTextbox.Name = "PasswordTextbox";
             this.PasswordTextbox.Size = new System.Drawing.Size(248, 22);
             this.PasswordTextbox.TabIndex = 3;
+            this.PasswordTextbox.Tag = "1";
             this.PasswordTextbox.TextChanged += new System.EventHandler(this.PasswordTextbox_TextChanged);
             // 
             // LoginButtun
@@ -109,6 +111,7 @@
             this.LoginButtun.Name = "LoginButtun";
             this.LoginButtun.Size = new System.Drawing.Size(122, 45);
             this.LoginButtun.TabIndex = 4;
+            this.LoginButtun.Tag = "2";
             this.LoginButtun.Text = "Login";
             this.LoginButtun.UseVisualStyleBackColor = false;
             this.LoginButtun.Click += new System.EventHandler(this.LoginButtun_Click);
