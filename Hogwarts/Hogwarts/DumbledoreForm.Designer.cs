@@ -178,7 +178,7 @@
             this.TrainButton.TabIndex = 18;
             this.TrainButton.Text = "Train";
             this.TrainButton.UseVisualStyleBackColor = true;
-            this.TrainButton.Click += new System.EventHandler(this.ForestButton_Click);
+            this.TrainButton.Click += new System.EventHandler(this.TrainButton_Click);
             // 
             // LoginoutButton
             // 

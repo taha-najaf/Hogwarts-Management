@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hogwarts
 {
-    public partial class TeacherInfoForm : Form
+    public partial class TrainForm : Form
     {
-        public TeacherInfoForm()
+        public TrainForm()
         {
             InitializeComponent();
         }
@@ -22,11 +22,6 @@ namespace Hogwarts
             this.Close();
             DumbledoreForm dumbledoreForm = new DumbledoreForm();
             dumbledoreForm.ShowDialog();
-        }
-
-        private void TeacherInfoForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

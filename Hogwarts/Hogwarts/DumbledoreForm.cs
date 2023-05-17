@@ -180,5 +180,11 @@ namespace Hogwarts
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
+
+        private void TrainButton_Click(object sender, EventArgs e)
+        {
+            TrainForm trainForm = new TrainForm();
+            trainForm.Show();
+        }
     }
 }
