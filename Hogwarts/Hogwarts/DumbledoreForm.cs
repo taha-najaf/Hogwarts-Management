@@ -127,7 +127,8 @@ namespace Hogwarts
 
         private void CoursesButton_Click(object sender, EventArgs e)
         {
-
+            CourseInfoForm form = new CourseInfoForm();
+            form.ShowDialog();
         }
 
         private void ProfessorButton_Click(object sender, EventArgs e)

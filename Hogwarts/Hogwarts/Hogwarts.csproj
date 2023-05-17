@@ -51,6 +51,12 @@
     <Compile Include="Botanical.cs" />
     <Compile Include="BreedType.cs" />
     <Compile Include="Chemistry.cs" />
+    <Compile Include="CourseInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseInfoForm.Designer.cs">
+      <DependentUpon>CourseInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dormitory.cs" />
     <Compile Include="Dumbledore.cs" />
     <Compile Include="DumbledoreForm.cs">
@@ -91,6 +97,9 @@
       <DependentUpon>TeacherInfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="CourseInfoForm.resx">
+      <DependentUpon>CourseInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DumbledoreForm.resx">
       <DependentUpon>DumbledoreForm.cs</DependentUpon>
     </EmbeddedResource>
