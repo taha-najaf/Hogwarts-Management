@@ -99,6 +99,7 @@
             this.LoginoutButton.TabIndex = 42;
             this.LoginoutButton.Text = "Logout";
             this.LoginoutButton.UseVisualStyleBackColor = true;
+            this.LoginoutButton.Click += new System.EventHandler(this.LoginoutButton_Click);
             // 
             // TrainButton
             // 
@@ -106,7 +107,7 @@
             this.TrainButton.FlatAppearance.BorderSize = 5;
             this.TrainButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.TrainButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainButton.Location = new System.Drawing.Point(85, 364);
             this.TrainButton.Name = "TrainButton";
             this.TrainButton.Size = new System.Drawing.Size(93, 48);
@@ -134,7 +135,7 @@
             this.ForestButton.FlatAppearance.BorderSize = 5;
             this.ForestButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ForestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForestButton.Location = new System.Drawing.Point(85, 451);
             this.ForestButton.Margin = new System.Windows.Forms.Padding(0);
             this.ForestButton.Name = "ForestButton";
@@ -149,7 +150,7 @@
             this.CoursesButton.FlatAppearance.BorderSize = 5;
             this.CoursesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.CoursesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoursesButton.Location = new System.Drawing.Point(85, 283);
             this.CoursesButton.Name = "CoursesButton";
             this.CoursesButton.Size = new System.Drawing.Size(93, 48);
@@ -223,7 +224,7 @@
             this.StudentButton.FlatAppearance.BorderSize = 5;
             this.StudentButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.StudentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StudentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentButton.Location = new System.Drawing.Point(85, 197);
             this.StudentButton.Name = "StudentButton";
             this.StudentButton.Size = new System.Drawing.Size(93, 45);
@@ -265,6 +266,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.JunglePictureBox);
             this.Controls.Add(this.CoursesPictureBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "TeacherInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TeacherInfoForm";
