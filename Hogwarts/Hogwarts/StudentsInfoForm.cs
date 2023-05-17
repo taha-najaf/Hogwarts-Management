@@ -29,7 +29,9 @@ namespace Hogwarts
 
         private void CoursesButton_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            CourseInfoForm courseInfoForm = new CourseInfoForm();
+            courseInfoForm.ShowDialog();
         }
 
         private void LoginoutButton_Click(object sender, EventArgs e)
@@ -43,6 +45,34 @@ namespace Hogwarts
         private void StudentsInfoForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void ProfessorButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            TeacherInfoForm teacherInfoForm = new TeacherInfoForm();
+            teacherInfoForm.ShowDialog();
+        }
+
+        private void TrainButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            TrainForm trainForm = new TrainForm();
+            trainForm.ShowDialog();
+        }
+
+        private void ForestButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ForestForm_add forestForm_Add = new ForestForm_add();   
+            forestForm_Add.ShowDialog();
+        }
+
+        private void DormitoryButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
+            dormitoryInfoForm.ShowDialog();
         }
     }
 }

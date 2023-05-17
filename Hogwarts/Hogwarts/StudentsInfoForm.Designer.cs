@@ -81,6 +81,7 @@
             this.TrainButton.TabIndex = 27;
             this.TrainButton.Text = "Train";
             this.TrainButton.UseVisualStyleBackColor = true;
+            this.TrainButton.Click += new System.EventHandler(this.TrainButton_Click);
             // 
             // DormitoryButton
             // 
@@ -95,6 +96,7 @@
             this.DormitoryButton.TabIndex = 28;
             this.DormitoryButton.Text = "Dormitory";
             this.DormitoryButton.UseVisualStyleBackColor = true;
+            this.DormitoryButton.Click += new System.EventHandler(this.DormitoryButton_Click);
             // 
             // ForestButton
             // 
@@ -110,6 +112,7 @@
             this.ForestButton.TabIndex = 29;
             this.ForestButton.Text = "Forest";
             this.ForestButton.UseVisualStyleBackColor = true;
+            this.ForestButton.Click += new System.EventHandler(this.ForestButton_Click);
             // 
             // CoursesButton
             // 
@@ -139,6 +142,7 @@
             this.ProfessorButton.TabIndex = 31;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
+            this.ProfessorButton.Click += new System.EventHandler(this.ProfessorButton_Click);
             // 
             // panel3
             // 
