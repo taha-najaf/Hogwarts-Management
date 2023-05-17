@@ -28,5 +28,40 @@ namespace Hogwarts
         {
 
         }
+
+        private void StudentButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            StudentsInfoForm studentsInfoForm = new StudentsInfoForm();
+            studentsInfoForm.ShowDialog();
+        }
+
+        private void CoursesButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            CourseInfoForm courseInfoForm = new CourseInfoForm();
+            courseInfoForm.ShowDialog();
+        }
+
+        private void TrainButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            TrainForm trainForm = new TrainForm();
+            trainForm.ShowDialog();
+        }
+
+        private void ForestButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ForestForm_add forestForm = new ForestForm_add();
+            forestForm.ShowDialog();
+        }
+
+        private void DormitoryButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
+            dormitoryInfoForm.ShowDialog();
+        }
     }
 }

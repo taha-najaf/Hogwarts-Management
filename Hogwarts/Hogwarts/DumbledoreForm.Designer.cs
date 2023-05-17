@@ -127,7 +127,7 @@
             this.ProfessorButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ProfessorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProfessorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProfessorButton.Location = new System.Drawing.Point(884, 97);
+            this.ProfessorButton.Location = new System.Drawing.Point(884, 102);
             this.ProfessorButton.Name = "ProfessorButton";
             this.ProfessorButton.Size = new System.Drawing.Size(158, 65);
             this.ProfessorButton.TabIndex = 18;
@@ -211,7 +211,7 @@
             this.DormitoryButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.DormitoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DormitoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DormitoryButton.Location = new System.Drawing.Point(884, 439);
+            this.DormitoryButton.Location = new System.Drawing.Point(884, 447);
             this.DormitoryButton.Name = "DormitoryButton";
             this.DormitoryButton.Size = new System.Drawing.Size(158, 65);
             this.DormitoryButton.TabIndex = 18;
