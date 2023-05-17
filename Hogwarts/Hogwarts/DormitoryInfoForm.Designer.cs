@@ -66,6 +66,7 @@
             this.CoursesButton.TabIndex = 85;
             this.CoursesButton.Text = "Courses";
             this.CoursesButton.UseVisualStyleBackColor = true;
+            this.CoursesButton.Click += new System.EventHandler(this.CoursesButton_Click);
             // 
             // StudentButton
             // 
@@ -80,6 +81,7 @@
             this.StudentButton.TabIndex = 83;
             this.StudentButton.Text = "Students";
             this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.Click += new System.EventHandler(this.StudentButton_Click);
             // 
             // NameSchoolLabel
             // 
@@ -132,6 +134,7 @@
             this.TrainButton.TabIndex = 77;
             this.TrainButton.Text = "Train";
             this.TrainButton.UseVisualStyleBackColor = true;
+            this.TrainButton.Click += new System.EventHandler(this.TrainButton_Click);
             // 
             // ProfessorButton
             // 
@@ -146,6 +149,7 @@
             this.ProfessorButton.TabIndex = 79;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
+            this.ProfessorButton.Click += new System.EventHandler(this.ProfessorButton_Click);
             // 
             // CoursesPictureBox
             // 
@@ -232,6 +236,7 @@
             this.ForestButton.TabIndex = 87;
             this.ForestButton.Text = "Forest";
             this.ForestButton.UseVisualStyleBackColor = true;
+            this.ForestButton.Click += new System.EventHandler(this.ForestButton_Click);
             // 
             // JunglePictureBox
             // 

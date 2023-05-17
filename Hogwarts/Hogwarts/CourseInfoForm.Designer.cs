@@ -271,6 +271,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.JunglePictureBox);
             this.Controls.Add(this.ProfessorPictureBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CourseInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CourseInfoForm";
