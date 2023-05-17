@@ -104,5 +104,70 @@ namespace Hogwarts
         {
 
         }
+
+        private void BloodInfolabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CoursesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProfessorButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StudentButton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TrainPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JunglePictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CoursesPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

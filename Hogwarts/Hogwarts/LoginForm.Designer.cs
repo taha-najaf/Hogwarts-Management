@@ -95,6 +95,7 @@
             this.PasswordTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.PasswordTextbox.Location = new System.Drawing.Point(468, 487);
             this.PasswordTextbox.Name = "PasswordTextbox";
+            this.PasswordTextbox.PasswordChar = '+';
             this.PasswordTextbox.Size = new System.Drawing.Size(248, 22);
             this.PasswordTextbox.TabIndex = 3;
             this.PasswordTextbox.Tag = "1";

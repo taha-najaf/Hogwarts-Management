@@ -50,8 +50,9 @@
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
             this.StudentPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.StudentInfolabel = new System.Windows.Forms.Label();
-            this.TeacherInfolabel = new System.Windows.Forms.Label();
+            this.BloodInfolabel = new System.Windows.Forms.Label();
+            this.AgeInfolabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).BeginInit();
@@ -81,6 +82,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 54);
             this.label8.TabIndex = 12;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label10
             // 
@@ -101,6 +103,7 @@
             this.label9.Size = new System.Drawing.Size(500, 42);
             this.label9.TabIndex = 17;
             this.label9.Text = "Welcome Dear Dumbledore";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // StudentButton
             // 
@@ -115,6 +118,7 @@
             this.StudentButton.TabIndex = 18;
             this.StudentButton.Text = "Students";
             this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.Click += new System.EventHandler(this.StudentButton_Click_1);
             // 
             // ProfessorButton
             // 
@@ -129,6 +133,7 @@
             this.ProfessorButton.TabIndex = 18;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
+            this.ProfessorButton.Click += new System.EventHandler(this.ProfessorButton_Click);
             // 
             // CoursesButton
             // 
@@ -143,6 +148,7 @@
             this.CoursesButton.TabIndex = 18;
             this.CoursesButton.Text = "Courses";
             this.CoursesButton.UseVisualStyleBackColor = true;
+            this.CoursesButton.Click += new System.EventHandler(this.CoursesButton_Click);
             // 
             // ForestButton
             // 
@@ -196,6 +202,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(10, 668);
             this.panel1.TabIndex = 19;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // DormitoryButton
             // 
@@ -221,6 +228,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 20;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // LogoutPictureBox
             // 
@@ -246,6 +254,7 @@
             this.TrainPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.TrainPictureBox.TabIndex = 7;
             this.TrainPictureBox.TabStop = false;
+            this.TrainPictureBox.Click += new System.EventHandler(this.TrainPictureBox_Click);
             // 
             // pictureBox2
             // 
@@ -258,6 +267,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // JunglePictureBox
             // 
@@ -270,6 +280,7 @@
             this.JunglePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.JunglePictureBox.TabIndex = 7;
             this.JunglePictureBox.TabStop = false;
+            this.JunglePictureBox.Click += new System.EventHandler(this.JunglePictureBox_Click);
             // 
             // CoursesPictureBox
             // 
@@ -282,6 +293,7 @@
             this.CoursesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.CoursesPictureBox.TabIndex = 7;
             this.CoursesPictureBox.TabStop = false;
+            this.CoursesPictureBox.Click += new System.EventHandler(this.CoursesPictureBox_Click);
             // 
             // ProfessorPictureBox
             // 
@@ -315,34 +327,51 @@
             this.pictureBox1.Image = global::Hogwarts.Properties.Resources.download1;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(214, 227);
+            this.pictureBox1.Size = new System.Drawing.Size(227, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // StudentInfolabel
+            // BloodInfolabel
             // 
-            this.StudentInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StudentInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.StudentInfolabel.Location = new System.Drawing.Point(12, 261);
-            this.StudentInfolabel.Name = "StudentInfolabel";
-            this.StudentInfolabel.Size = new System.Drawing.Size(141, 23);
-            this.StudentInfolabel.TabIndex = 21;
-            this.StudentInfolabel.Text = "Students:";
-            this.StudentInfolabel.Click += new System.EventHandler(this.StudentInfolabel_Click);
+            this.BloodInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BloodInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BloodInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BloodInfolabel.Location = new System.Drawing.Point(12, 356);
+            this.BloodInfolabel.Name = "BloodInfolabel";
+            this.BloodInfolabel.Size = new System.Drawing.Size(198, 23);
+            this.BloodInfolabel.TabIndex = 21;
+            this.BloodInfolabel.Text = "Blood:Pure Blood";
+            this.BloodInfolabel.Click += new System.EventHandler(this.BloodInfolabel_Click);
             // 
-            // TeacherInfolabel
+            // AgeInfolabel
             // 
-            this.TeacherInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TeacherInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TeacherInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.TeacherInfolabel.Location = new System.Drawing.Point(12, 320);
-            this.TeacherInfolabel.Name = "TeacherInfolabel";
-            this.TeacherInfolabel.Size = new System.Drawing.Size(141, 23);
-            this.TeacherInfolabel.TabIndex = 21;
-            this.TeacherInfolabel.Text = "Professors:";
+            this.AgeInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AgeInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgeInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.AgeInfolabel.Location = new System.Drawing.Point(12, 310);
+            this.AgeInfolabel.Name = "AgeInfolabel";
+            this.AgeInfolabel.Size = new System.Drawing.Size(198, 33);
+            this.AgeInfolabel.TabIndex = 21;
+            this.AgeInfolabel.Text = "Age:115 years";
+            this.AgeInfolabel.Click += new System.EventHandler(this.StudentInfolabel_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.FlatAppearance.BorderSize = 5;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Location = new System.Drawing.Point(13, 215);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(193, 60);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Inbox";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DumbledoreForm
             // 
@@ -351,14 +380,15 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1262, 673);
-            this.Controls.Add(this.TeacherInfolabel);
-            this.Controls.Add(this.StudentInfolabel);
+            this.Controls.Add(this.BloodInfolabel);
+            this.Controls.Add(this.AgeInfolabel);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.LoginoutButton);
             this.Controls.Add(this.TrainButton);
             this.Controls.Add(this.DormitoryButton);
             this.Controls.Add(this.ForestButton);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.CoursesButton);
             this.Controls.Add(this.ProfessorButton);
             this.Controls.Add(this.StudentButton);
@@ -416,7 +446,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button DormitoryButton;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label StudentInfolabel;
-        private System.Windows.Forms.Label TeacherInfolabel;
+        private System.Windows.Forms.Label BloodInfolabel;
+        private System.Windows.Forms.Label AgeInfolabel;
+        private System.Windows.Forms.Button button1;
     }
 }
