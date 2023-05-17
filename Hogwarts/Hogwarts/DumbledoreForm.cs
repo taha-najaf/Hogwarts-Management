@@ -97,7 +97,8 @@ namespace Hogwarts
 
         private void ForestButton_Click(object sender, EventArgs e)
         {
-            
+            ForestForm_add forestForm = new ForestForm_add();
+            forestForm.ShowDialog();
         }
 
         private void StudentInfolabel_Click(object sender, EventArgs e)

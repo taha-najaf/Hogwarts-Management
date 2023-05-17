@@ -41,6 +41,9 @@
             this.LoginoutButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.DormitoryButton = new System.Windows.Forms.Button();
+            this.BloodInfolabel = new System.Windows.Forms.Label();
+            this.AgeInfolabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.LogoutPictureBox = new System.Windows.Forms.PictureBox();
             this.TrainPictureBox = new System.Windows.Forms.PictureBox();
@@ -50,9 +53,6 @@
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
             this.StudentPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BloodInfolabel = new System.Windows.Forms.Label();
-            this.AgeInfolabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).BeginInit();
@@ -112,9 +112,9 @@
             this.StudentButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.StudentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StudentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentButton.Location = new System.Drawing.Point(392, 122);
+            this.StudentButton.Location = new System.Drawing.Point(373, 114);
             this.StudentButton.Name = "StudentButton";
-            this.StudentButton.Size = new System.Drawing.Size(161, 45);
+            this.StudentButton.Size = new System.Drawing.Size(180, 53);
             this.StudentButton.TabIndex = 18;
             this.StudentButton.Text = "Students";
             this.StudentButton.UseVisualStyleBackColor = true;
@@ -127,9 +127,9 @@
             this.ProfessorButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ProfessorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProfessorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProfessorButton.Location = new System.Drawing.Point(887, 119);
+            this.ProfessorButton.Location = new System.Drawing.Point(884, 105);
             this.ProfessorButton.Name = "ProfessorButton";
-            this.ProfessorButton.Size = new System.Drawing.Size(155, 48);
+            this.ProfessorButton.Size = new System.Drawing.Size(158, 62);
             this.ProfessorButton.TabIndex = 18;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
@@ -142,9 +142,9 @@
             this.CoursesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.CoursesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoursesButton.Location = new System.Drawing.Point(392, 295);
+            this.CoursesButton.Location = new System.Drawing.Point(379, 286);
             this.CoursesButton.Name = "CoursesButton";
-            this.CoursesButton.Size = new System.Drawing.Size(155, 48);
+            this.CoursesButton.Size = new System.Drawing.Size(168, 57);
             this.CoursesButton.TabIndex = 18;
             this.CoursesButton.Text = "Courses";
             this.CoursesButton.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             this.ForestButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ForestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForestButton.Location = new System.Drawing.Point(887, 295);
+            this.ForestButton.Location = new System.Drawing.Point(887, 286);
             this.ForestButton.Name = "ForestButton";
-            this.ForestButton.Size = new System.Drawing.Size(155, 48);
+            this.ForestButton.Size = new System.Drawing.Size(165, 57);
             this.ForestButton.TabIndex = 18;
             this.ForestButton.Text = "Forest";
             this.ForestButton.UseVisualStyleBackColor = true;
@@ -172,9 +172,9 @@
             this.TrainButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.TrainButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TrainButton.Location = new System.Drawing.Point(398, 464);
+            this.TrainButton.Location = new System.Drawing.Point(379, 460);
             this.TrainButton.Name = "TrainButton";
-            this.TrainButton.Size = new System.Drawing.Size(155, 48);
+            this.TrainButton.Size = new System.Drawing.Size(168, 52);
             this.TrainButton.TabIndex = 18;
             this.TrainButton.Text = "Train";
             this.TrainButton.UseVisualStyleBackColor = true;
@@ -187,9 +187,9 @@
             this.LoginoutButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.LoginoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginoutButton.Location = new System.Drawing.Point(742, 613);
+            this.LoginoutButton.Location = new System.Drawing.Point(718, 612);
             this.LoginoutButton.Name = "LoginoutButton";
-            this.LoginoutButton.Size = new System.Drawing.Size(155, 48);
+            this.LoginoutButton.Size = new System.Drawing.Size(179, 49);
             this.LoginoutButton.TabIndex = 18;
             this.LoginoutButton.Text = "Logout";
             this.LoginoutButton.UseVisualStyleBackColor = true;
@@ -211,13 +211,53 @@
             this.DormitoryButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.DormitoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DormitoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DormitoryButton.Location = new System.Drawing.Point(887, 464);
+            this.DormitoryButton.Location = new System.Drawing.Point(884, 447);
             this.DormitoryButton.Name = "DormitoryButton";
-            this.DormitoryButton.Size = new System.Drawing.Size(155, 48);
+            this.DormitoryButton.Size = new System.Drawing.Size(158, 65);
             this.DormitoryButton.TabIndex = 18;
             this.DormitoryButton.Text = "Dormitory";
             this.DormitoryButton.UseVisualStyleBackColor = true;
             this.DormitoryButton.Click += new System.EventHandler(this.ForestButton_Click);
+            // 
+            // BloodInfolabel
+            // 
+            this.BloodInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BloodInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BloodInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BloodInfolabel.Location = new System.Drawing.Point(12, 356);
+            this.BloodInfolabel.Name = "BloodInfolabel";
+            this.BloodInfolabel.Size = new System.Drawing.Size(198, 23);
+            this.BloodInfolabel.TabIndex = 21;
+            this.BloodInfolabel.Text = "Blood:Pure Blood";
+            this.BloodInfolabel.Click += new System.EventHandler(this.BloodInfolabel_Click);
+            // 
+            // AgeInfolabel
+            // 
+            this.AgeInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AgeInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgeInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.AgeInfolabel.Location = new System.Drawing.Point(12, 310);
+            this.AgeInfolabel.Name = "AgeInfolabel";
+            this.AgeInfolabel.Size = new System.Drawing.Size(198, 33);
+            this.AgeInfolabel.TabIndex = 21;
+            this.AgeInfolabel.Text = "Age:115 years";
+            this.AgeInfolabel.Click += new System.EventHandler(this.StudentInfolabel_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.FlatAppearance.BorderSize = 5;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Location = new System.Drawing.Point(13, 215);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(193, 60);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Inbox";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox3
             // 
@@ -247,10 +287,10 @@
             // 
             this.TrainPictureBox.BackColor = System.Drawing.Color.Khaki;
             this.TrainPictureBox.Image = global::Hogwarts.Properties.Resources.download__6_;
-            this.TrainPictureBox.Location = new System.Drawing.Point(261, 447);
+            this.TrainPictureBox.Location = new System.Drawing.Point(261, 430);
             this.TrainPictureBox.Name = "TrainPictureBox";
             this.TrainPictureBox.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
-            this.TrainPictureBox.Size = new System.Drawing.Size(112, 65);
+            this.TrainPictureBox.Size = new System.Drawing.Size(112, 82);
             this.TrainPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.TrainPictureBox.TabIndex = 7;
             this.TrainPictureBox.TabStop = false;
@@ -332,46 +372,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // BloodInfolabel
-            // 
-            this.BloodInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BloodInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BloodInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.BloodInfolabel.Location = new System.Drawing.Point(12, 356);
-            this.BloodInfolabel.Name = "BloodInfolabel";
-            this.BloodInfolabel.Size = new System.Drawing.Size(198, 23);
-            this.BloodInfolabel.TabIndex = 21;
-            this.BloodInfolabel.Text = "Blood:Pure Blood";
-            this.BloodInfolabel.Click += new System.EventHandler(this.BloodInfolabel_Click);
-            // 
-            // AgeInfolabel
-            // 
-            this.AgeInfolabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AgeInfolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeInfolabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.AgeInfolabel.Location = new System.Drawing.Point(12, 310);
-            this.AgeInfolabel.Name = "AgeInfolabel";
-            this.AgeInfolabel.Size = new System.Drawing.Size(198, 33);
-            this.AgeInfolabel.TabIndex = 21;
-            this.AgeInfolabel.Text = "Age:115 years";
-            this.AgeInfolabel.Click += new System.EventHandler(this.StudentInfolabel_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.FlatAppearance.BorderSize = 5;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(13, 215);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(193, 60);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Inbox";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DumbledoreForm
             // 

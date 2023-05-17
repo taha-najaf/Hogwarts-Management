@@ -65,6 +65,12 @@
     <Compile Include="DumbledoreForm.Designer.cs">
       <DependentUpon>DumbledoreForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ForestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForestForm.Designer.cs">
+      <DependentUpon>ForestForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Group.cs" />
     <Compile Include="GroupType.cs" />
     <Compile Include="Lesson.cs" />
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DumbledoreForm.resx">
       <DependentUpon>DumbledoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForestForm.resx">
+      <DependentUpon>ForestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
