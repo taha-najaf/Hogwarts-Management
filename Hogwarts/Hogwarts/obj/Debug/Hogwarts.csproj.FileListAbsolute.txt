@@ -22,3 +22,4 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Interop.VisioViewer
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\AxInterop.VisioViewer.dll
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.ResolveComReference.cache
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.StudentPanel.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.ProfessorPanel.resources

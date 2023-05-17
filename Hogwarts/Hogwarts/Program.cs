@@ -119,7 +119,7 @@ namespace Hogwarts
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StudentPanel());
+            Application.Run(new ProfessorPanel());
 
 
         }

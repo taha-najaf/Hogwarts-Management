@@ -62,7 +62,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Khaki;
-            this.panel1.Location = new System.Drawing.Point(210, 0);
+            this.panel1.Location = new System.Drawing.Point(243, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(12, 672);
             this.panel1.TabIndex = 0;
@@ -96,9 +96,9 @@
             this.panel2.Controls.Add(this.Termlabel);
             this.panel2.Controls.Add(this.Petlabel);
             this.panel2.Controls.Add(this.FirstNamelabel);
-            this.panel2.Location = new System.Drawing.Point(249, 160);
+            this.panel2.Location = new System.Drawing.Point(261, 160);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1001, 237);
+            this.panel2.Size = new System.Drawing.Size(989, 237);
             this.panel2.TabIndex = 4;
             // 
             // LastNmaelabel
@@ -163,7 +163,7 @@
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.Location = new System.Drawing.Point(2, 160);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 83);
+            this.button1.Size = new System.Drawing.Size(235, 83);
             this.button1.TabIndex = 5;
             this.button1.Text = "Inbox";
             this.button1.UseVisualStyleBackColor = false;
@@ -180,7 +180,7 @@
             this.SendLetterButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SendLetterButton.Location = new System.Drawing.Point(94, 303);
             this.SendLetterButton.Name = "SendLetterButton";
-            this.SendLetterButton.Size = new System.Drawing.Size(110, 39);
+            this.SendLetterButton.Size = new System.Drawing.Size(143, 39);
             this.SendLetterButton.TabIndex = 5;
             this.SendLetterButton.Text = "Send Letter";
             this.SendLetterButton.UseVisualStyleBackColor = false;
@@ -197,7 +197,7 @@
             this.SellectUnitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SellectUnitButton.Location = new System.Drawing.Point(94, 402);
             this.SellectUnitButton.Name = "SellectUnitButton";
-            this.SellectUnitButton.Size = new System.Drawing.Size(110, 39);
+            this.SellectUnitButton.Size = new System.Drawing.Size(143, 39);
             this.SellectUnitButton.TabIndex = 5;
             this.SellectUnitButton.Text = "Sellect Unit";
             this.SellectUnitButton.UseVisualStyleBackColor = false;
@@ -210,13 +210,13 @@
             this.UploadHomeworkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.UploadHomeworkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.UploadHomeworkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.UploadHomeworkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UploadHomeworkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UploadHomeworkButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.UploadHomeworkButton.Location = new System.Drawing.Point(94, 499);
             this.UploadHomeworkButton.Name = "UploadHomeworkButton";
-            this.UploadHomeworkButton.Size = new System.Drawing.Size(110, 39);
+            this.UploadHomeworkButton.Size = new System.Drawing.Size(143, 39);
             this.UploadHomeworkButton.TabIndex = 5;
-            this.UploadHomeworkButton.Text = "Sellect Unit";
+            this.UploadHomeworkButton.Text = "Upload Homework";
             this.UploadHomeworkButton.UseVisualStyleBackColor = false;
             // 
             // LogoutButton
@@ -231,7 +231,7 @@
             this.LogoutButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.LogoutButton.Location = new System.Drawing.Point(94, 606);
             this.LogoutButton.Name = "LogoutButton";
-            this.LogoutButton.Size = new System.Drawing.Size(110, 39);
+            this.LogoutButton.Size = new System.Drawing.Size(143, 39);
             this.LogoutButton.TabIndex = 5;
             this.LogoutButton.Text = "Logout";
             this.LogoutButton.UseVisualStyleBackColor = false;
@@ -253,7 +253,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Hogwarts.Properties.Resources.download__2_2;
-            this.pictureBox6.Location = new System.Drawing.Point(592, 403);
+            this.pictureBox6.Location = new System.Drawing.Point(1054, 403);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(196, 269);
             this.pictureBox6.TabIndex = 7;
@@ -309,7 +309,7 @@
             this.pictureBox1.Image = global::Hogwarts.Properties.Resources.download__8_;
             this.pictureBox1.Location = new System.Drawing.Point(2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 131);
+            this.pictureBox1.Size = new System.Drawing.Size(235, 131);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
