@@ -186,5 +186,12 @@ namespace Hogwarts
             TrainForm trainForm = new TrainForm();
             trainForm.Show();
         }
+
+        private void DormitoryButton_Click(object sender, EventArgs e)
+        {
+            DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
+            dormitoryInfoForm.Show();
+            
+        }
     }
 }

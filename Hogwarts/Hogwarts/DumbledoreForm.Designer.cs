@@ -127,9 +127,9 @@
             this.ProfessorButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ProfessorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProfessorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProfessorButton.Location = new System.Drawing.Point(884, 105);
+            this.ProfessorButton.Location = new System.Drawing.Point(884, 97);
             this.ProfessorButton.Name = "ProfessorButton";
-            this.ProfessorButton.Size = new System.Drawing.Size(158, 62);
+            this.ProfessorButton.Size = new System.Drawing.Size(158, 65);
             this.ProfessorButton.TabIndex = 18;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             this.ForestButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ForestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForestButton.Location = new System.Drawing.Point(887, 286);
+            this.ForestButton.Location = new System.Drawing.Point(887, 278);
             this.ForestButton.Name = "ForestButton";
-            this.ForestButton.Size = new System.Drawing.Size(165, 57);
+            this.ForestButton.Size = new System.Drawing.Size(158, 65);
             this.ForestButton.TabIndex = 18;
             this.ForestButton.Text = "Forest";
             this.ForestButton.UseVisualStyleBackColor = true;
@@ -211,13 +211,13 @@
             this.DormitoryButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.DormitoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DormitoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DormitoryButton.Location = new System.Drawing.Point(884, 447);
+            this.DormitoryButton.Location = new System.Drawing.Point(884, 439);
             this.DormitoryButton.Name = "DormitoryButton";
             this.DormitoryButton.Size = new System.Drawing.Size(158, 65);
             this.DormitoryButton.TabIndex = 18;
             this.DormitoryButton.Text = "Dormitory";
             this.DormitoryButton.UseVisualStyleBackColor = true;
-            this.DormitoryButton.Click += new System.EventHandler(this.ForestButton_Click);
+            this.DormitoryButton.Click += new System.EventHandler(this.DormitoryButton_Click);
             // 
             // BloodInfolabel
             // 

@@ -74,7 +74,7 @@
             this.TrainButton.FlatAppearance.BorderSize = 5;
             this.TrainButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.TrainButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainButton.Location = new System.Drawing.Point(87, 364);
             this.TrainButton.Name = "TrainButton";
             this.TrainButton.Size = new System.Drawing.Size(93, 48);
@@ -102,7 +102,7 @@
             this.ForestButton.FlatAppearance.BorderSize = 5;
             this.ForestButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.ForestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForestButton.Location = new System.Drawing.Point(87, 451);
             this.ForestButton.Margin = new System.Windows.Forms.Padding(0);
             this.ForestButton.Name = "ForestButton";
@@ -117,7 +117,7 @@
             this.CoursesButton.FlatAppearance.BorderSize = 5;
             this.CoursesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.CoursesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoursesButton.Location = new System.Drawing.Point(87, 283);
             this.CoursesButton.Name = "CoursesButton";
             this.CoursesButton.Size = new System.Drawing.Size(93, 48);

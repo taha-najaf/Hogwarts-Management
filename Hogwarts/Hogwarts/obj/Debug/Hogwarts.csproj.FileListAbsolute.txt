@@ -14,3 +14,5 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.StudentsIn
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.TeacherInfoForm.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.CourseInfoForm.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.ForestForm_add.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.DormitoryInfoForm.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.TrainForm.resources

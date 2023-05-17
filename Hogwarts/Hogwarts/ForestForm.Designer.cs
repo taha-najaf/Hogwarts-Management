@@ -30,27 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForestForm_add));
             this.StudentButton = new System.Windows.Forms.Button();
-            this.StudentPictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.NameSchoolLabel = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.LoginoutButton = new System.Windows.Forms.Button();
             this.TrainButton = new System.Windows.Forms.Button();
             this.DormitoryButton = new System.Windows.Forms.Button();
             this.ProfessorButton = new System.Windows.Forms.Button();
+            this.CoursesButton = new System.Windows.Forms.Button();
+            this.CoursesPictureBox = new System.Windows.Forms.PictureBox();
+            this.StudentPictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LogoutPictureBox = new System.Windows.Forms.PictureBox();
             this.TrainPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
-            this.CoursesButton = new System.Windows.Forms.Button();
-            this.CoursesPictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProfessorPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // StudentButton
@@ -66,29 +66,6 @@
             this.StudentButton.TabIndex = 68;
             this.StudentButton.Text = "Students";
             this.StudentButton.UseVisualStyleBackColor = true;
-            // 
-            // StudentPictureBox
-            // 
-            this.StudentPictureBox.BackColor = System.Drawing.Color.Khaki;
-            this.StudentPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.StudentPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("StudentPictureBox.Image")));
-            this.StudentPictureBox.Location = new System.Drawing.Point(2, 256);
-            this.StudentPictureBox.Name = "StudentPictureBox";
-            this.StudentPictureBox.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.StudentPictureBox.Size = new System.Drawing.Size(76, 72);
-            this.StudentPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.StudentPictureBox.TabIndex = 67;
-            this.StudentPictureBox.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Hogwarts.Properties.Resources.download1;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 159);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 66;
-            this.pictureBox1.TabStop = false;
             // 
             // NameSchoolLabel
             // 
@@ -134,7 +111,7 @@
             this.TrainButton.FlatAppearance.BorderSize = 5;
             this.TrainButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
             this.TrainButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrainButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainButton.Location = new System.Drawing.Point(84, 359);
             this.TrainButton.Name = "TrainButton";
             this.TrainButton.Size = new System.Drawing.Size(93, 48);
@@ -169,6 +146,55 @@
             this.ProfessorButton.TabIndex = 64;
             this.ProfessorButton.Text = "Professor";
             this.ProfessorButton.UseVisualStyleBackColor = true;
+            // 
+            // CoursesButton
+            // 
+            this.CoursesButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.CoursesButton.FlatAppearance.BorderSize = 5;
+            this.CoursesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
+            this.CoursesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoursesButton.Location = new System.Drawing.Point(84, 447);
+            this.CoursesButton.Name = "CoursesButton";
+            this.CoursesButton.Size = new System.Drawing.Size(93, 48);
+            this.CoursesButton.TabIndex = 70;
+            this.CoursesButton.Text = "Courses";
+            this.CoursesButton.UseVisualStyleBackColor = true;
+            // 
+            // CoursesPictureBox
+            // 
+            this.CoursesPictureBox.BackColor = System.Drawing.Color.Khaki;
+            this.CoursesPictureBox.Image = global::Hogwarts.Properties.Resources.download__3_;
+            this.CoursesPictureBox.Location = new System.Drawing.Point(2, 423);
+            this.CoursesPictureBox.Name = "CoursesPictureBox";
+            this.CoursesPictureBox.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.CoursesPictureBox.Size = new System.Drawing.Size(76, 72);
+            this.CoursesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.CoursesPictureBox.TabIndex = 69;
+            this.CoursesPictureBox.TabStop = false;
+            // 
+            // StudentPictureBox
+            // 
+            this.StudentPictureBox.BackColor = System.Drawing.Color.Khaki;
+            this.StudentPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.StudentPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("StudentPictureBox.Image")));
+            this.StudentPictureBox.Location = new System.Drawing.Point(2, 256);
+            this.StudentPictureBox.Name = "StudentPictureBox";
+            this.StudentPictureBox.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.StudentPictureBox.Size = new System.Drawing.Size(76, 72);
+            this.StudentPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.StudentPictureBox.TabIndex = 67;
+            this.StudentPictureBox.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Hogwarts.Properties.Resources.download1;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(175, 159);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 66;
+            this.pictureBox1.TabStop = false;
             // 
             // LogoutPictureBox
             // 
@@ -218,32 +244,6 @@
             this.ProfessorPictureBox.TabIndex = 55;
             this.ProfessorPictureBox.TabStop = false;
             // 
-            // CoursesButton
-            // 
-            this.CoursesButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.CoursesButton.FlatAppearance.BorderSize = 5;
-            this.CoursesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LemonChiffon;
-            this.CoursesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CoursesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoursesButton.Location = new System.Drawing.Point(84, 447);
-            this.CoursesButton.Name = "CoursesButton";
-            this.CoursesButton.Size = new System.Drawing.Size(93, 48);
-            this.CoursesButton.TabIndex = 70;
-            this.CoursesButton.Text = "Courses";
-            this.CoursesButton.UseVisualStyleBackColor = true;
-            // 
-            // CoursesPictureBox
-            // 
-            this.CoursesPictureBox.BackColor = System.Drawing.Color.Khaki;
-            this.CoursesPictureBox.Image = global::Hogwarts.Properties.Resources.download__3_;
-            this.CoursesPictureBox.Location = new System.Drawing.Point(2, 423);
-            this.CoursesPictureBox.Name = "CoursesPictureBox";
-            this.CoursesPictureBox.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.CoursesPictureBox.Size = new System.Drawing.Size(76, 72);
-            this.CoursesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.CoursesPictureBox.TabIndex = 69;
-            this.CoursesPictureBox.TabStop = false;
-            // 
             // ForestForm_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -269,13 +269,13 @@
             this.Name = "ForestForm_add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForestForm_add";
+            ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProfessorPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
