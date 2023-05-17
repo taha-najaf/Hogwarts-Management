@@ -16,3 +16,9 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.CourseInfo
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.ForestForm_add.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.DormitoryInfoForm.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.TrainForm.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\Interop.VisioViewer.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\AxInterop.VisioViewer.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Interop.VisioViewer.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\AxInterop.VisioViewer.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.ResolveComReference.cache
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.StudentPanel.resources

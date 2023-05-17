@@ -119,7 +119,7 @@ namespace Hogwarts
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DumbledoreForm());
+            Application.Run(new StudentPanel());
 
 
         }
