@@ -58,6 +58,12 @@
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Dormitory.cs" />
+    <Compile Include="DormitoryInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DormitoryInfoForm.Designer.cs">
+      <DependentUpon>DormitoryInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dumbledore.cs" />
     <Compile Include="DumbledoreForm.cs">
       <SubType>Form</SubType>
@@ -111,6 +117,9 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="CourseInfoForm.resx">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DormitoryInfoForm.resx">
+      <DependentUpon>DormitoryInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DumbledoreForm.resx">
       <DependentUpon>DumbledoreForm.cs</DependentUpon>
