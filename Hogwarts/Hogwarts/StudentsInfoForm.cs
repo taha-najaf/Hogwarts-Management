@@ -31,5 +31,18 @@ namespace Hogwarts
         {
 
         }
+
+        private void LoginoutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            DumbledoreForm form = new DumbledoreForm();
+            form.ShowDialog();
+
+        }
+
+        private void StudentsInfoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

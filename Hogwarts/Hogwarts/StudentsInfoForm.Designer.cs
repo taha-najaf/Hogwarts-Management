@@ -66,6 +66,7 @@
             this.LoginoutButton.TabIndex = 26;
             this.LoginoutButton.Text = "Logout";
             this.LoginoutButton.UseVisualStyleBackColor = true;
+            this.LoginoutButton.Click += new System.EventHandler(this.LoginoutButton_Click);
             // 
             // TrainButton
             // 
@@ -269,7 +270,9 @@
             this.Controls.Add(this.ProfessorPictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "StudentsInfoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentsInfoForm";
+            this.Load += new System.EventHandler(this.StudentsInfoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

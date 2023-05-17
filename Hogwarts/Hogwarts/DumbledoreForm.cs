@@ -97,7 +97,7 @@ namespace Hogwarts
 
         private void ForestButton_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void StudentInfolabel_Click(object sender, EventArgs e)
@@ -137,7 +137,8 @@ namespace Hogwarts
 
         private void StudentButton_Click_1(object sender, EventArgs e)
         {
-
+            StudentsInfoForm form = new StudentsInfoForm();
+            form.ShowDialog();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -168,6 +169,13 @@ namespace Hogwarts
         private void CoursesPictureBox_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void LogoutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }
