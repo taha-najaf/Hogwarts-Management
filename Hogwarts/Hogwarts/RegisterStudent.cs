@@ -28,5 +28,20 @@ namespace Hogwarts
             StudentsInfoForm studentsInfoForm = new StudentsInfoForm();
             studentsInfoForm.ShowDialog();
         }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void UploadPhotobutton_Click(object sender, EventArgs e)
+        {
+            //browse photo from PC
+            OpenFileDialog opf = new OpenFileDialog();
+            opf.Filter="Select Photo(*.jpg;*.png;*.gif)| *.jpg; *.png; *.gif";
+            if(opf.ShowDialog() == DialogResult.OK)
+                pictureBox_student.Image = Image.FromFile(opf.FileName);   
+        }
+
     }
 }
