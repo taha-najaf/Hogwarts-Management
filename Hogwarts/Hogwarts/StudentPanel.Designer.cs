@@ -306,10 +306,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Hogwarts.Properties.Resources.download__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox1.Image = global::Hogwarts.Properties.Resources.rsz_1download_27;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(235, 131);
+            this.pictureBox1.Size = new System.Drawing.Size(235, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;

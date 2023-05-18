@@ -47,16 +47,24 @@ namespace Hogwarts
             {
                 //MessageBox.Show("Dumbledore");
                 DumbledoreForm dumbledoreForm = new DumbledoreForm();
+                UsernameTextbox.Text = string.Empty;
+                PasswordTextbox.Text = string.Empty;
                 dumbledoreForm.ShowDialog();
 
             }
             else if (result == 2)
             {
-                MessageBox.Show("Student");
+                StudentPanel studentPanel = new StudentPanel();
+                UsernameTextbox.Text = string.Empty;
+                PasswordTextbox.Text = string.Empty;
+                studentPanel.ShowDialog();
             }
             else if (result == 3)
             { 
-                    MessageBox.Show("Teacher");
+                ProfessorPanel pro =new ProfessorPanel();
+                UsernameTextbox.Text = string.Empty;
+                PasswordTextbox.Text = string.Empty;
+                pro.ShowDialog();
             }
         }
 
@@ -66,12 +74,7 @@ namespace Hogwarts
             PasswordTextbox.Text = string.Empty;
         }
 
-        private void UsernameTextbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PasswordTextbox_TextChanged(object sender, EventArgs e)
+        private void LoginForm_Load(object sender, EventArgs e)
         {
 
         }

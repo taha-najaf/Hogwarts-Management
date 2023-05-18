@@ -88,7 +88,6 @@
             this.UsernameTextbox.Size = new System.Drawing.Size(248, 22);
             this.UsernameTextbox.TabIndex = 3;
             this.UsernameTextbox.Tag = "0";
-            this.UsernameTextbox.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
             // 
             // PasswordTextbox
             // 
@@ -99,7 +98,6 @@
             this.PasswordTextbox.Size = new System.Drawing.Size(248, 22);
             this.PasswordTextbox.TabIndex = 3;
             this.PasswordTextbox.Tag = "1";
-            this.PasswordTextbox.TextChanged += new System.EventHandler(this.PasswordTextbox_TextChanged);
             // 
             // LoginButtun
             // 
@@ -151,6 +149,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
