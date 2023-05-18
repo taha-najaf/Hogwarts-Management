@@ -92,6 +92,7 @@ namespace Hogwarts
                         AllowedPersons.GroupName = (GroupType)random.Next(0, 4);//for group name
                         AllowedPersons.Role = Role.student;
                         student.Role = Role.student;
+                        student.Term=random.Next(1, 9);
                         student.FirstName = AllowedPersons.FirstName;
                         student.LastName = AllowedPersons.LastName;
                         student.Birthday = AllowedPersons.Birthday;

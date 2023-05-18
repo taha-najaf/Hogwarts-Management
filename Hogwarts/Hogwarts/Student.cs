@@ -23,9 +23,9 @@ namespace Hogwarts
         //===========================database
         DBconnect connect =new DBconnect();
         //create function to add students to database
-        public bool insertStudent(string firstname, string lastname, string fathername,DateTime dob,string gender,string pet,string breedtype,string username,string password,int term,byte[]img)
+        public bool insertStudent(string firstname, string lastname, string fathername,DateTime dob,string gender,string pet,string breedtype,string username,string password,string term,byte[]img)
         {
-            MySqlCommand command= new MySqlCommand("INSERT INTO `student`(`FirstName`, `LastName`, `FatherName`, `DOB`, `Gender`, `Pet`, `BreedType`, `Username`, `Password`, `Term`, `Photo`) VALUES(@fn, @ln, @fan, @db, @ge, @pe, @br, @un, @pa, @te, @img)",connect.GetConnection);
+            MySqlCommand command= new MySqlCommand("INSERT INTO `student`(`FirstName`, `LastName`, `FatherName`, `DOB`, `Gender`, `Pet`, `Blood`, `Username`, `Password`, `Term`, `Photo`) VALUES(@fn, @ln, @fan, @db, @ge, @pe, @br, @un, @pa, @te, @img)",connect.GetConnection);
             //VALUES(@fn, @ln, @fan, @db, @ge, @pe, @br, @un, @pa, @te, @img
             command.Parameters.Add("@fn",MySqlDbType.VarChar).Value= firstname;
             command.Parameters.Add("@ln", MySqlDbType.VarChar).Value = lastname;
@@ -50,5 +50,6 @@ namespace Hogwarts
                 return false;
             }
         }
+
     }
 }

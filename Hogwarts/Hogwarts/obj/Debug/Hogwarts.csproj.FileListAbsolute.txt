@@ -95,3 +95,5 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\zh-Hans\Microsoft.D
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.RegisterStudent.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.csproj.CopyComplete
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\MySql.Data.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\MySql.Data.xml
