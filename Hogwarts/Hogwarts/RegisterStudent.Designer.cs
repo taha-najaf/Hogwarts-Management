@@ -31,9 +31,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterStudent));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.DataGridView_Student = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.FirstNametextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@
             this.RatradioButton = new System.Windows.Forms.RadioButton();
             this.CatradioButton = new System.Windows.Forms.RadioButton();
             this.OwlPetradioButton = new System.Windows.Forms.RadioButton();
-            this.pictureBox_student = new System.Windows.Forms.PictureBox();
             this.UploadPhotobutton = new System.Windows.Forms.Button();
             this.label = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -67,8 +67,9 @@
             this.Addbutton = new System.Windows.Forms.Button();
             this.Clearbutton = new System.Windows.Forms.Button();
             this.BloodcomboBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox_student = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Student)).BeginInit();
             this.GendergroupBox.SuspendLayout();
             this.PetgroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_student)).BeginInit();
@@ -96,11 +97,13 @@
             this.label1.Text = "Registration";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // guna2DataGridView1
+            // DataGridView_Student
             // 
+            this.DataGridView_Student.AllowUserToAddRows = false;
+            this.DataGridView_Student.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.DimGray;
+            this.DataGridView_Student.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DataGridView_Student.BackgroundColor = System.Drawing.Color.DimGray;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,9 +111,9 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridView_Student.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DataGridView_Student.ColumnHeadersHeight = 30;
+            this.DataGridView_Student.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,38 +121,38 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(3, 49);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1261, 398);
-            this.guna2DataGridView1.TabIndex = 1;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.DimGray;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            this.DataGridView_Student.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DataGridView_Student.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.Location = new System.Drawing.Point(3, 56);
+            this.DataGridView_Student.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DataGridView_Student.Name = "DataGridView_Student";
+            this.DataGridView_Student.RowHeadersVisible = false;
+            this.DataGridView_Student.RowHeadersWidth = 51;
+            this.DataGridView_Student.RowTemplate.Height = 80;
+            this.DataGridView_Student.Size = new System.Drawing.Size(1255, 391);
+            this.DataGridView_Student.TabIndex = 1;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DataGridView_Student.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.Height = 30;
+            this.DataGridView_Student.ThemeStyle.ReadOnly = false;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.Height = 80;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_Student.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
             // label2
             // 
@@ -357,18 +360,6 @@
             this.OwlPetradioButton.Text = "Owl";
             this.OwlPetradioButton.UseVisualStyleBackColor = true;
             // 
-            // pictureBox_student
-            // 
-            this.pictureBox_student.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox_student.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_student.Location = new System.Drawing.Point(1053, 453);
-            this.pictureBox_student.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox_student.Name = "pictureBox_student";
-            this.pictureBox_student.Size = new System.Drawing.Size(100, 102);
-            this.pictureBox_student.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_student.TabIndex = 7;
-            this.pictureBox_student.TabStop = false;
-            // 
             // UploadPhotobutton
             // 
             this.UploadPhotobutton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
@@ -520,7 +511,7 @@
             this.Clearbutton.TabIndex = 8;
             this.Clearbutton.Text = "Clear";
             this.Clearbutton.UseVisualStyleBackColor = true;
-            this.Clearbutton.Click += new System.EventHandler(this.button1_Click);
+            this.Clearbutton.Click += new System.EventHandler(this.Clearbutton_Click);
             // 
             // BloodcomboBox
             // 
@@ -536,6 +527,19 @@
             this.BloodcomboBox.Size = new System.Drawing.Size(165, 24);
             this.BloodcomboBox.Sorted = true;
             this.BloodcomboBox.TabIndex = 9;
+            // 
+            // pictureBox_student
+            // 
+            this.pictureBox_student.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox_student.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox_student.Image = global::Hogwarts.Properties.Resources.student1;
+            this.pictureBox_student.Location = new System.Drawing.Point(1053, 453);
+            this.pictureBox_student.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox_student.Name = "pictureBox_student";
+            this.pictureBox_student.Size = new System.Drawing.Size(100, 102);
+            this.pictureBox_student.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_student.TabIndex = 7;
+            this.pictureBox_student.TabStop = false;
             // 
             // RegisterStudent
             // 
@@ -571,15 +575,18 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.DataGridView_Student);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RegisterStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterStudent";
+            this.Load += new System.EventHandler(this.RegisterStudent_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Student)).EndInit();
             this.GendergroupBox.ResumeLayout(false);
             this.GendergroupBox.PerformLayout();
             this.PetgroupBox.ResumeLayout(false);
@@ -594,7 +601,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridView_Student;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FirstNametextBox;
         private System.Windows.Forms.Label label3;

@@ -77,6 +77,7 @@ namespace Hogwarts
                     byte[] img = ms.ToArray();
                     if (student.insertStudent(fname, Lastname, fathername, dateTime, gender, Pet, blood, username, password, term, img))
                     {
+                        ShowTable();
                         MessageBox.Show("New student Added", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
@@ -110,6 +111,33 @@ namespace Hogwarts
             else if (RatradioButton.Checked)
                 pet = "rat";
 
+        }
+        // to show student list in datagridview
+        public void ShowTable()
+        {
+            DataGridView_Student.DataSource=student.getStudentList();
+            
+            DataGridViewImageColumn imagecolumn=new DataGridViewImageColumn();
+            imagecolumn = (DataGridViewImageColumn)DataGridView_Student.Columns[11];
+            imagecolumn.ImageLayout = DataGridViewImageCellLayout.Stretch;
+        }
+
+        private void RegisterStudent_Load(object sender, EventArgs e)
+        {
+            ShowTable();
+        }
+
+        private void Clearbutton_Click(object sender, EventArgs e)
+        {
+            FirstNametextBox.Clear();
+            LastNametextBox.Clear();
+            FatherNametextBox.Clear();
+            UsernametextBox.Clear();
+            PasswordtextBox.Clear();
+            BloodcomboBox.SelectedIndex=-1;
+            TermcomboBox.SelectedIndex=-1;
+            dateTimePicker1.ResetText();
+            pictureBox_student.Image = null;
         }
     }
 }

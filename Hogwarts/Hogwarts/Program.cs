@@ -5,7 +5,6 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Hogwarts
 {
 
@@ -31,6 +30,8 @@ namespace Hogwarts
             int RavenclawDormitoryCode = 110;
             int GryffindorDormitoryCode = 110;
             int HufflepuffDormitoryCode = 110;
+            //string imagepath = @"D:\programming\Projects\Hogwarts\Image\student";
+            //byte[] imagedata =ImageConvert.GetImageData(imagepath);
             //**************************************************************for reading file
 
             using (StreamReader file = new StreamReader("TXT_DATA.tsv"))
@@ -103,9 +104,14 @@ namespace Hogwarts
                         student.Pet = AllowedPersons.Pet;
                         student.HaveBaggage = AllowedPersons.HaveBaggage;
                         student.GroupName = AllowedPersons.GroupName;
-                       
-                       // ListOfStudents.Add(student);
-                       Student.StusentsList.Add(student);
+
+                        // ListOfStudents.Add(student);
+
+                        //if (student.insertStudent(student.FirstName, student.LastName, student.FatherName, student.Birthday, student.Gender, student.Pet, student.breedType, student.Username, student.Password,student.Term, imagedata))
+                        //{
+                        //    Student.StusentsList.Add(student);
+                        //}
+                        Student.StusentsList.Add(student);
                     }
                     persons.Add(AllowedPersons);
                 }

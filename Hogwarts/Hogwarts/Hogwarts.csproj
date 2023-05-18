@@ -228,6 +228,7 @@
     </Compile>
     <Compile Include="Group.cs" />
     <Compile Include="GroupType.cs" />
+    <Compile Include="ImageConvert.cs" />
     <Compile Include="Lesson.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -501,6 +502,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.5.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.5.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />

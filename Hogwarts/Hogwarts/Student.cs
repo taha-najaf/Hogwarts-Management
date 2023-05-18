@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Data;
 namespace Hogwarts
 {
     public class Student : AllowedPersons
@@ -50,6 +51,17 @@ namespace Hogwarts
                 return false;
             }
         }
+        //to get student table from database
+        public DataTable getStudentList()
+        {
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `student`", connect.GetConnection);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+            DataTable table = new DataTable();
+            adapter.Fill(table);
+            return table;
+        } 
 
+        
+        
     }
 }
