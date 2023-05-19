@@ -205,11 +205,11 @@
     <Compile Include="CourseInfoForm.Designer.cs">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Curses.cs">
+    <Compile Include="Courses.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Curses.Designer.cs">
-      <DependentUpon>Curses.cs</DependentUpon>
+    <Compile Include="Courses.Designer.cs">
+      <DependentUpon>Courses.cs</DependentUpon>
     </Compile>
     <Compile Include="DBconnect.cs" />
     <Compile Include="Dormitory.cs" />
@@ -298,8 +298,8 @@
     <EmbeddedResource Include="CourseInfoForm.resx">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Curses.resx">
-      <DependentUpon>Curses.cs</DependentUpon>
+    <EmbeddedResource Include="Courses.resx">
+      <DependentUpon>Courses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DormitoryInfoForm.resx">
       <DependentUpon>DormitoryInfoForm.cs</DependentUpon>

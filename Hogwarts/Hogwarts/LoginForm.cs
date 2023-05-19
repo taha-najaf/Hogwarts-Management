@@ -6,8 +6,8 @@ namespace Hogwarts
 {
     public partial class LoginForm : Form
     {
-        public Teacher professor=new Teacher();
-        public Student student = new Student();
+        public static Teacher professor=new Teacher();
+        public static Student student = new Student();
         public LoginForm() 
         {
             InitializeComponent();

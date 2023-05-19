@@ -23,5 +23,11 @@ namespace Hogwarts
             LoginForm loginForm = new LoginForm();
             loginForm.ShowDialog();
         }
+
+        private void DefineLessonButton_Click(object sender, EventArgs e)
+        {
+            Courses courses = new Courses();
+            courses.ShowDialog();
+        }
     }
 }

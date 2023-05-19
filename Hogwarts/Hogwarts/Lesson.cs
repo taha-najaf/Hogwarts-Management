@@ -17,13 +17,14 @@ namespace Hogwarts
         public string ProfessorFirstName { get; set; }
         public string ProfessorLastName { get; set; }
         public double StudentGrade { get; set; }
-        public Lesson(string cname,string cday,string ctime, int term, int capacity,string tfirst,string tlastname) 
+        public Lesson(string cname,string cday,string ctime, int term, int capacity,int studentnum,string tfirst,string tlastname) 
         {
             this.CourseName = cname;
             this.CourseDay = cday;
             this.CourseHour = ctime;
             this.PresentationSemester = term;
             this.Capacity = capacity;
+            this.NumberOfStudents = studentnum;
             this.ProfessorFirstName = tfirst;
             this.ProfessorLastName = tlastname;
         }

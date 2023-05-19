@@ -115,6 +115,7 @@
             this.DefineLessonButton.TabIndex = 14;
             this.DefineLessonButton.Text = "Define Lesson";
             this.DefineLessonButton.UseVisualStyleBackColor = false;
+            this.DefineLessonButton.Click += new System.EventHandler(this.DefineLessonButton_Click);
             // 
             // SetScoreButton
             // 
