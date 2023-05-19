@@ -443,6 +443,7 @@
             this.TermcomboBox.Size = new System.Drawing.Size(121, 24);
             this.TermcomboBox.Sorted = true;
             this.TermcomboBox.TabIndex = 9;
+            this.TermcomboBox.SelectedIndexChanged += new System.EventHandler(this.TermcomboBox_SelectedIndexChanged);
             // 
             // label10
             // 
@@ -579,7 +580,6 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RegisterStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

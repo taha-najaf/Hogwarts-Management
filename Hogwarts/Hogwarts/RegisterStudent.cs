@@ -139,5 +139,10 @@ namespace Hogwarts
             dateTimePicker1.ResetText();
             pictureBox_student.Image = null;
         }
+
+        private void TermcomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

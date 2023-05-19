@@ -111,7 +111,7 @@ namespace Hogwarts
                         //{
                         //    Student.StusentsList.Add(student);
                         //}
-                        Student.StusentsList.Add(student);
+                        Student.StudentsList.Add(student);
                     }
                     persons.Add(AllowedPersons);
                 }
@@ -126,7 +126,7 @@ namespace Hogwarts
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegisterStudent());
+            Application.Run(new StudentsInfoForm());
 
 
         }

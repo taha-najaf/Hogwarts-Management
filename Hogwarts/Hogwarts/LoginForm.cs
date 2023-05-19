@@ -6,6 +6,8 @@ namespace Hogwarts
 {
     public partial class LoginForm : Form
     {
+        public Teacher professor=new Teacher();
+        public Student student = new Student();
         public LoginForm() 
         {
             InitializeComponent();
@@ -55,6 +57,7 @@ namespace Hogwarts
             else if (result == 2)
             {
                 StudentPanel studentPanel = new StudentPanel();
+                student=User.TakeStudentObject(UsernameTextbox.Text,PasswordTextbox.Text);
                 UsernameTextbox.Text = string.Empty;
                 PasswordTextbox.Text = string.Empty;
                 studentPanel.ShowDialog();
@@ -62,6 +65,7 @@ namespace Hogwarts
             else if (result == 3)
             { 
                 ProfessorPanel pro =new ProfessorPanel();
+                professor=User.TakeTeacherObject(UsernameTextbox.Text,PasswordTextbox.Text);
                 UsernameTextbox.Text = string.Empty;
                 PasswordTextbox.Text = string.Empty;
                 pro.ShowDialog();

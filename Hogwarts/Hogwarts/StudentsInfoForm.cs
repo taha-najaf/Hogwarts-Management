@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
 namespace Hogwarts
 {
     public partial class StudentsInfoForm : Form
     {
+        Student Student =new Student();
         public StudentsInfoForm()
         {
             InitializeComponent();
@@ -44,6 +45,11 @@ namespace Hogwarts
 
         private void StudentsInfoForm_Load(object sender, EventArgs e)
         {
+            totalstudent.Text = "Total Students: " + Student.totalstudent();
+            Malelabel.Text= "Male : "+Student.malestudent();
+            femalelabel.Text="Female: "+Student.femalestudent();
+            showdata(new MySqlCommand("SELECT * FROM `student`"));
+
 
         }
 
@@ -73,6 +79,21 @@ namespace Hogwarts
             this.Close();
             DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
             dormitoryInfoForm.ShowDialog();
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        // show student
+        public void showdata(MySqlCommand command)
+        {
+            DataGridView_Student.ReadOnly = true;
+            DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
+            //DataGridView_Student.Height = 80;
+            DataGridView_Student.DataSource = Student.getlist(command);
+            imageColumn = (DataGridViewImageColumn)DataGridView_Student.Columns[11];
+            imageColumn.ImageLayout = DataGridViewImageCellLayout.Stretch;
         }
     }
 }

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentsInfoForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.LoginoutButton = new System.Windows.Forms.Button();
             this.TrainButton = new System.Windows.Forms.Button();
             this.DormitoryButton = new System.Windows.Forms.Button();
@@ -39,7 +39,9 @@
             this.CoursesButton = new System.Windows.Forms.Button();
             this.ProfessorButton = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.NameSchoolLabel = new System.Windows.Forms.Label();
+            this.totalstudent = new System.Windows.Forms.Label();
+            this.Malelabel = new System.Windows.Forms.Label();
+            this.femalelabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LogoutPictureBox = new System.Windows.Forms.PictureBox();
             this.TrainPictureBox = new System.Windows.Forms.PictureBox();
@@ -47,8 +49,7 @@
             this.JunglePictureBox = new System.Windows.Forms.PictureBox();
             this.CoursesPictureBox = new System.Windows.Forms.PictureBox();
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
+            this.DataGridView_Student = new Guna.UI2.WinForms.Guna2DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainPictureBox)).BeginInit();
@@ -56,7 +57,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProfessorPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Student)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginoutButton
@@ -160,18 +161,44 @@
             this.panel3.Size = new System.Drawing.Size(10, 671);
             this.panel3.TabIndex = 0;
             // 
-            // NameSchoolLabel
+            // totalstudent
             // 
-            this.NameSchoolLabel.BackColor = System.Drawing.Color.Transparent;
-            this.NameSchoolLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameSchoolLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.NameSchoolLabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.NameSchoolLabel.Location = new System.Drawing.Point(202, 9);
-            this.NameSchoolLabel.Name = "NameSchoolLabel";
-            this.NameSchoolLabel.Size = new System.Drawing.Size(233, 48);
-            this.NameSchoolLabel.TabIndex = 33;
-            this.NameSchoolLabel.Text = "Students\r\n";
-            this.NameSchoolLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.totalstudent.BackColor = System.Drawing.Color.Transparent;
+            this.totalstudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalstudent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.totalstudent.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.totalstudent.Location = new System.Drawing.Point(202, 19);
+            this.totalstudent.Name = "totalstudent";
+            this.totalstudent.Size = new System.Drawing.Size(233, 48);
+            this.totalstudent.TabIndex = 33;
+            this.totalstudent.Text = "Total Students:";
+            this.totalstudent.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // Malelabel
+            // 
+            this.Malelabel.BackColor = System.Drawing.Color.Transparent;
+            this.Malelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Malelabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Malelabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Malelabel.Location = new System.Drawing.Point(451, 19);
+            this.Malelabel.Name = "Malelabel";
+            this.Malelabel.Size = new System.Drawing.Size(233, 48);
+            this.Malelabel.TabIndex = 33;
+            this.Malelabel.Text = "Male Students:\r\n";
+            this.Malelabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // femalelabel
+            // 
+            this.femalelabel.BackColor = System.Drawing.Color.Transparent;
+            this.femalelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.femalelabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.femalelabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.femalelabel.Location = new System.Drawing.Point(737, 19);
+            this.femalelabel.Name = "femalelabel";
+            this.femalelabel.Size = new System.Drawing.Size(233, 48);
+            this.femalelabel.TabIndex = 33;
+            this.femalelabel.Text = "FeMale Students:\r\n";
+            this.femalelabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 
@@ -256,66 +283,63 @@
             this.ProfessorPictureBox.TabIndex = 20;
             this.ProfessorPictureBox.TabStop = false;
             // 
-            // guna2DataGridView1
+            // DataGridView_Student
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.Silver;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(202, 60);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1032, 385);
-            this.guna2DataGridView1.TabIndex = 35;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.DarkGray;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.Silver;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(242, 467);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "label1";
+            this.DataGridView_Student.AllowUserToAddRows = false;
+            this.DataGridView_Student.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Student.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DataGridView_Student.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataGridView_Student.BackgroundColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_Student.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DataGridView_Student.ColumnHeadersHeight = 30;
+            this.DataGridView_Student.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_Student.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DataGridView_Student.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.Location = new System.Drawing.Point(202, 69);
+            this.DataGridView_Student.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DataGridView_Student.Name = "DataGridView_Student";
+            this.DataGridView_Student.RowHeadersVisible = false;
+            this.DataGridView_Student.RowHeadersWidth = 51;
+            this.DataGridView_Student.RowTemplate.Height = 80;
+            this.DataGridView_Student.Size = new System.Drawing.Size(1048, 578);
+            this.DataGridView_Student.TabIndex = 35;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Student.ThemeStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DataGridView_Student.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridView_Student.ThemeStyle.HeaderStyle.Height = 30;
+            this.DataGridView_Student.ThemeStyle.ReadOnly = false;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.Height = 80;
+            this.DataGridView_Student.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Student.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // StudentsInfoForm
             // 
@@ -324,10 +348,11 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(1262, 673);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.DataGridView_Student);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.NameSchoolLabel);
+            this.Controls.Add(this.femalelabel);
+            this.Controls.Add(this.Malelabel);
+            this.Controls.Add(this.totalstudent);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.LoginoutButton);
             this.Controls.Add(this.TrainButton);
@@ -354,9 +379,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProfessorPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Student)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -375,9 +399,10 @@
         private System.Windows.Forms.PictureBox CoursesPictureBox;
         private System.Windows.Forms.PictureBox ProfessorPictureBox;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label NameSchoolLabel;
+        private System.Windows.Forms.Label totalstudent;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Malelabel;
+        private System.Windows.Forms.Label femalelabel;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridView_Student;
     }
 }

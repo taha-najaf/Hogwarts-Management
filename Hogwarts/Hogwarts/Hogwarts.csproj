@@ -205,6 +205,12 @@
     <Compile Include="CourseInfoForm.Designer.cs">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Curses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Curses.Designer.cs">
+      <DependentUpon>Curses.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBconnect.cs" />
     <Compile Include="Dormitory.cs" />
     <Compile Include="DormitoryInfoForm.cs">
@@ -235,6 +241,12 @@
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageStudent.Designer.cs">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Occultism.cs" />
     <Compile Include="Person.cs" />
@@ -286,6 +298,9 @@
     <EmbeddedResource Include="CourseInfoForm.resx">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Curses.resx">
+      <DependentUpon>Curses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DormitoryInfoForm.resx">
       <DependentUpon>DormitoryInfoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -297,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageStudent.resx">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfessorPanel.resx">
       <DependentUpon>ProfessorPanel.cs</DependentUpon>
