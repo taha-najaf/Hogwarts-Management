@@ -58,5 +58,27 @@ namespace Hogwarts
             DormitoryInfoForm form = new DormitoryInfoForm();
             form.ShowDialog();
         }
+        private void showtable()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("Course Name", typeof(string));
+            table.Columns.Add("Course Day", typeof(string));
+            table.Columns.Add("Course Time", typeof(string));
+            table.Columns.Add("Course Term", typeof(int));
+            table.Columns.Add("Course Capacity", typeof(int));
+            table.Columns.Add("Number of Students", typeof(int));
+            table.Columns.Add("Teacher First Name", typeof(string));
+            table.Columns.Add("Teacher Last Name", typeof(string));
+            foreach (var lesson in Lesson.AllLessons)
+            {
+                table.Rows.Add(lesson.CourseName, lesson.CourseDay, lesson.CourseHour, lesson.PresentationSemester, lesson.Capacity, lesson.NumberOfStudents, lesson.ProfessorFirstName, lesson.ProfessorLastName);
+            }
+            DataGridView_Student.DataSource = table;
+        }
+
+        private void CourseInfoForm_Load(object sender, EventArgs e)
+        {
+            showtable();
+        }
     }
 }

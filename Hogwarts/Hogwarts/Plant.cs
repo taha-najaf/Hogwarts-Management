@@ -10,5 +10,13 @@ namespace Hogwarts
     {
         public string Name { get; set; }
         public int Number { get; set; }
+        public string Description { get; set; }
+        public Plant(string name,int num,string des) 
+        {
+            this.Name = name;
+            this.Number = num;
+            this.Description = des;
+        }
+        public static List<Plant> Plants { get; set; }=new List<Plant>();
     }
 }

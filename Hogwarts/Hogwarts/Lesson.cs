@@ -28,7 +28,7 @@ namespace Hogwarts
             this.ProfessorFirstName = tfirst;
             this.ProfessorLastName = tlastname;
         }
-        public static List<Lesson> AllLessons { get; set; }
+        public static List<Lesson> AllLessons { get; set; }=new List<Lesson>();
         ////database
         //DBconnect connect = new DBconnect();
         //// function to insert course

@@ -58,5 +58,28 @@ namespace Hogwarts
             DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
             dormitoryInfoForm.ShowDialog();
         }
+
+        private void showtable()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("Plant Name", typeof(string));
+            table.Columns.Add("Number of Plant", typeof(int));
+            table.Columns.Add("Description", typeof(string));
+            foreach (var plant in Plant.Plants)
+            {
+                table.Rows.Add(plant.Name, plant.Number,plant.Description);
+            }
+            DataGridView_Forest.DataSource = table;
+        }
+
+        private void Addbutton_Click(object sender, EventArgs e)
+        {
+            string name = Name_textBox2.Text;
+            int num=int.Parse(textBox_num.Text);
+            string des=textBox_Description.Text;
+            Plant plant=new Plant(name,num,des);
+            Plant.Plants.Add(plant);
+            showtable();
+        }
     }
 }
