@@ -16,5 +16,6 @@ namespace Hogwarts
         public bool HaveBaggage { get; set; }
         public Role Role { get; set; }
         public string ReceivedLetter = " ";
+        public int traincode { get; set; }
     }
 }

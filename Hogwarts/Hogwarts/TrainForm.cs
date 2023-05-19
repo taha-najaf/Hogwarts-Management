@@ -59,5 +59,10 @@ namespace Hogwarts
             DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
             dormitoryInfoForm.ShowDialog();
         }
+
+        private void Invitebutton_Click(object sender, EventArgs e)
+        {
+            Dumbledore.SendLetterToStudents(Student.StudentsList);
+        }
     }
 }

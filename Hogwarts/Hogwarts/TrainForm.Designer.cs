@@ -37,6 +37,10 @@
             this.CoursesButton = new System.Windows.Forms.Button();
             this.ProfessorButton = new System.Windows.Forms.Button();
             this.StudentButton = new System.Windows.Forms.Button();
+            this.label_Letter = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.StudentPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LogoutPictureBox = new System.Windows.Forms.PictureBox();
@@ -44,6 +48,9 @@
             this.JunglePictureBox = new System.Windows.Forms.PictureBox();
             this.CoursesPictureBox = new System.Windows.Forms.PictureBox();
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
+            this.Invitebutton = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
@@ -167,6 +174,48 @@
             this.StudentButton.UseVisualStyleBackColor = true;
             this.StudentButton.Click += new System.EventHandler(this.StudentButton_Click);
             // 
+            // label_Letter
+            // 
+            this.label_Letter.Font = new System.Drawing.Font("MS Reference Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Letter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label_Letter.Location = new System.Drawing.Point(229, 97);
+            this.label_Letter.Name = "label_Letter";
+            this.label_Letter.Size = new System.Drawing.Size(948, 319);
+            this.label_Letter.TabIndex = 54;
+            this.label_Letter.Text = resources.GetString("label_Letter.Text");
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Pink;
+            this.label1.Location = new System.Drawing.Point(304, 426);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(808, 115);
+            this.label1.TabIndex = 54;
+            this.label1.Text = "Remember If you don\'t get to the train, you have to wait an hour for the next tra" +
+    "in\r\n\r\n";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Navy;
+            this.label2.Location = new System.Drawing.Point(293, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(706, 53);
+            this.label2.TabIndex = 55;
+            this.label2.Text = "The text of the letter :";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Hogwarts.Properties.Resources.download__27_;
+            this.pictureBox3.Location = new System.Drawing.Point(236, 431);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(62, 72);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 56;
+            this.pictureBox3.TabStop = false;
+            // 
             // StudentPictureBox
             // 
             this.StudentPictureBox.BackColor = System.Drawing.Color.Khaki;
@@ -250,12 +299,42 @@
             this.ProfessorPictureBox.TabIndex = 36;
             this.ProfessorPictureBox.TabStop = false;
             // 
+            // Invitebutton
+            // 
+            this.Invitebutton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
+            this.Invitebutton.FlatAppearance.BorderSize = 10;
+            this.Invitebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Invitebutton.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Invitebutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Invitebutton.Location = new System.Drawing.Point(311, 568);
+            this.Invitebutton.Name = "Invitebutton";
+            this.Invitebutton.Size = new System.Drawing.Size(233, 90);
+            this.Invitebutton.TabIndex = 57;
+            this.Invitebutton.Text = "Invite";
+            this.Invitebutton.UseVisualStyleBackColor = true;
+            this.Invitebutton.Click += new System.EventHandler(this.Invitebutton_Click);
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(562, 625);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(486, 23);
+            this.label3.TabIndex = 58;
+            this.label3.Text = "With this button, the letter is automatically sent to the students.";
+            // 
             // TrainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Invitebutton);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label_Letter);
             this.Controls.Add(this.StudentButton);
             this.Controls.Add(this.StudentPictureBox);
             this.Controls.Add(this.pictureBox1);
@@ -275,6 +354,7 @@
             this.Name = "TrainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrainForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).EndInit();
@@ -303,5 +383,11 @@
         private System.Windows.Forms.PictureBox ProfessorPictureBox;
         private System.Windows.Forms.Button StudentButton;
         private System.Windows.Forms.PictureBox StudentPictureBox;
+        private System.Windows.Forms.Label label_Letter;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button Invitebutton;
+        private System.Windows.Forms.Label label3;
     }
 }

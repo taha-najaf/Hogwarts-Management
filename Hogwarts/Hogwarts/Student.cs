@@ -15,6 +15,7 @@ namespace Hogwarts
         public int DormitoryNumbere { get; set; }
         public string letterToDumbledor { get; set; }
         public static List<Student> StudentsList { get; set; }=new List<Student>();
+        
         public void SendLetterToDumbledor(string name, string family, string father, List<Student> student)
         {
         }

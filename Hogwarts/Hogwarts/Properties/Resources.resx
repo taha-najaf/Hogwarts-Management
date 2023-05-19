@@ -130,11 +130,14 @@
   <data name="download (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-harry-potter-130" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-harry-potter-130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6Q3N0q1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Q3N0q1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,38 +145,35 @@
   <data name="6Q3N0q" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6Q3N0q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_download_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_download_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Student2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="rsz_14download_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_14download_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-harry-potter-130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-harry-potter-130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dumbledore-addresses-students-in-the-great-hall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dumbledore-addresses-students-in-the-great-hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Student2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rsz_1download_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_1download_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dumbledore-addresses-students-in-the-great-hall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbledore-addresses-students-in-the-great-hall2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rsz_1download_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_1download_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +181,8 @@
   <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6Q3N0q1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6Q3N0q1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dumbledore-addresses-students-in-the-great-hall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbledore-addresses-students-in-the-great-hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,9 +202,6 @@
   <data name="download (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="download (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -220,6 +217,9 @@
   <data name="download (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="student1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -232,11 +232,14 @@
   <data name="download (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rsz_14download_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_14download_151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,13 +250,13 @@
   <data name="download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dumbledore-addresses-students-in-the-great-hall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dumbledore-addresses-students-in-the-great-hall2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rsz_download_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_download_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="student1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\student1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
