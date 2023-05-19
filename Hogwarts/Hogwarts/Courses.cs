@@ -48,6 +48,10 @@ namespace Hogwarts
             string teacherlastname=LastName.Text;
             Lesson lesson=new Lesson(cname,day,time,term,capacity,stnunm,teacherfirstname,teacherlastname);
             Lesson.AllLessons.Add(lesson);
+            if (radioButton_YesSim.Checked)
+                LoginForm.professor.SimultaneousTeaching = true;
+            else if(radioButton_NoSim.Checked)
+                LoginForm.professor.SimultaneousTeaching=false;
             showtable();
                 
         }
@@ -83,6 +87,11 @@ namespace Hogwarts
                 table.Rows.Add(lesson.CourseName,lesson.CourseDay,lesson.CourseHour,lesson.PresentationSemester,lesson.Capacity,lesson.NumberOfStudents,lesson.ProfessorFirstName,lesson.ProfessorLastName);
             }
             DataGridView_Student.DataSource = table;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

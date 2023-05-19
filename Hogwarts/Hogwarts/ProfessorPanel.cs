@@ -29,5 +29,12 @@ namespace Hogwarts
             Courses courses = new Courses();
             courses.ShowDialog();
         }
+
+        private void ProfessorPanel_Load(object sender, EventArgs e)
+        {
+            FirstNamelabel.Text = LoginForm.professor.FirstName;
+            LastNmaelabel.Text=LoginForm.professor.LastName;
+            Grouptypelabel.Text = LoginForm.professor.GroupName.ToString();
+        }
     }
 }
