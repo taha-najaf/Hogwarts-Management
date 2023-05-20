@@ -9,7 +9,7 @@ namespace Hogwarts
 {
     public class Dumbledore : AllowedPersons
     {
-        public List<string> letterFromStudents { get; set; }
+        public static List<string> letterFromStudents { get; set; }= new List<string>();
         public static string Username="Admin";
         public static string Password="****";
        

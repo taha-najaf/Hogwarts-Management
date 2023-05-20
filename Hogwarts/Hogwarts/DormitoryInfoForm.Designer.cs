@@ -40,20 +40,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSlytherin = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnGriffindor = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnHufflepuff = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnRavenclaw = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.JunglePictureBox = new System.Windows.Forms.PictureBox();
             this.CoursesPictureBox = new System.Windows.Forms.PictureBox();
             this.StudentPictureBox = new System.Windows.Forms.PictureBox();
@@ -63,14 +63,14 @@
             this.ProfessorPictureBox = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).BeginInit();
@@ -200,12 +200,13 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(28, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 43);
+            this.label1.Size = new System.Drawing.Size(123, 43);
             this.label1.TabIndex = 88;
             this.label1.Text = "Slytherin";
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnSlytherin);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label1);
@@ -226,8 +227,20 @@
             this.btnSlytherin.UseVisualStyleBackColor = false;
             this.btnSlytherin.Click += new System.EventHandler(this.btnSlytherin_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Hogwarts.Properties.Resources.download__23_1;
+            this.pictureBox2.Location = new System.Drawing.Point(179, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 90);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 89;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.btnGriffindor);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.label2);
@@ -248,18 +261,29 @@
             this.btnGriffindor.UseVisualStyleBackColor = false;
             this.btnGriffindor.Click += new System.EventHandler(this.btnGriffindor_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Hogwarts.Properties.Resources.download__22_1;
+            this.pictureBox3.Location = new System.Drawing.Point(179, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(75, 90);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 89;
+            this.pictureBox3.TabStop = false;
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(20, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 43);
+            this.label2.Size = new System.Drawing.Size(132, 43);
             this.label2.TabIndex = 88;
             this.label2.Text = "Gryffindor";
             // 
             // panel4
             // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.btnHufflepuff);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.label3);
@@ -280,18 +304,30 @@
             this.btnHufflepuff.UseVisualStyleBackColor = false;
             this.btnHufflepuff.Click += new System.EventHandler(this.btnHufflepuff_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Hogwarts.Properties.Resources.download__25_1;
+            this.pictureBox4.Location = new System.Drawing.Point(179, 6);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(75, 90);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 89;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(21, 32);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 43);
+            this.label3.Size = new System.Drawing.Size(144, 43);
             this.label3.TabIndex = 88;
             this.label3.Text = "Hufflepuff";
             // 
             // panel5
             // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.btnRavenclaw);
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Controls.Add(this.label4);
@@ -312,25 +348,25 @@
             this.btnRavenclaw.UseVisualStyleBackColor = false;
             this.btnRavenclaw.Click += new System.EventHandler(this.btnRavenclaw_Click);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Hogwarts.Properties.Resources.download__26_1;
+            this.pictureBox5.Location = new System.Drawing.Point(179, 6);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(75, 90);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 89;
+            this.pictureBox5.TabStop = false;
+            // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(3, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 43);
+            this.label4.Size = new System.Drawing.Size(149, 43);
             this.label4.TabIndex = 88;
             this.label4.Text = "Ravenclaw";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Hogwarts.Properties.Resources.download__26_1;
-            this.pictureBox5.Location = new System.Drawing.Point(157, 6);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(75, 90);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 89;
-            this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
@@ -342,38 +378,6 @@
             this.pictureBox6.TabIndex = 89;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Hogwarts.Properties.Resources.download__22_1;
-            this.pictureBox3.Location = new System.Drawing.Point(157, 6);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(75, 90);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 89;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Hogwarts.Properties.Resources.download__25_1;
-            this.pictureBox4.Location = new System.Drawing.Point(157, 6);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(75, 90);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 89;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Hogwarts.Properties.Resources.download__23_1;
-            this.pictureBox2.Location = new System.Drawing.Point(157, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 90);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 89;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // JunglePictureBox
             // 
@@ -503,14 +507,14 @@
             this.Text = "DormitoryInfoForm";
             this.Load += new System.EventHandler(this.DormitoryInfoForm_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoursesPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPictureBox)).EndInit();

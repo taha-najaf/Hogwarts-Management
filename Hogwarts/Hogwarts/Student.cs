@@ -16,8 +16,12 @@ namespace Hogwarts
         public string letterToDumbledor { get; set; }
         public static List<Student> StudentsList { get; set; }=new List<Student>();
         
-        public void SendLetterToDumbledor(string name, string family, string father, List<Student> student)
+        public void SendLetterToDumbledor(string name, string family)
         {
+            string request = $"You have new message from student with this firstname {name} and lastname {family}\n" +
+               "Dear Dumbledore\n" +
+               "I am writing to request permission to return to the city. ";
+            Dumbledore.letterFromStudents.Add(request);
         }
         public void SelectUnits(List<Lesson> lessons, List<Student> students, string name, String family)
         {

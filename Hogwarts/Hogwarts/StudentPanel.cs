@@ -19,7 +19,20 @@ namespace Hogwarts
 
         private void StudentPanel_Load(object sender, EventArgs e)
         {
-
+            try
+            {
+                FirstNamelabel.Text = "First Name : " + LoginForm.student.FirstName;
+                LastNmaelabel.Text = "Last Name : " + LoginForm.student.LastName;
+                Grouptypelabel.Text = "Group Type : " + LoginForm.student.GroupName;
+                Petlabel.Text = "Pet : " + LoginForm.student.Pet;
+                Termlabel.Text = "Term : " + LoginForm.student.Term;
+                Dormitorylabel.Text = "Dormitory Code : " + LoginForm.student.DormitoryNumber;
+                PassedUnits.Text = "Passed Units : " + LoginForm.student.PassedUnits;
+            }
+            catch ( Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK);
+            }
         }
 
         private void LogoutButton_Click(object sender, EventArgs e)
@@ -27,6 +40,11 @@ namespace Hogwarts
             this.Close();
             LoginForm loginForm = new LoginForm();
             loginForm.ShowDialog();
+        }
+
+        private void SendLetterButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

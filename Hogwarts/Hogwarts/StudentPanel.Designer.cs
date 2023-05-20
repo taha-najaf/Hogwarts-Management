@@ -33,17 +33,17 @@
             this.FirstNamelabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.LastNmaelabel = new System.Windows.Forms.Label();
+            this.PassedUnits = new System.Windows.Forms.ListBox();
             this.Grouptypelabel = new System.Windows.Forms.Label();
-            this.Petlabel = new System.Windows.Forms.Label();
-            this.Termlabel = new System.Windows.Forms.Label();
+            this.LastNmaelabel = new System.Windows.Forms.Label();
             this.Dormitorylabel = new System.Windows.Forms.Label();
+            this.Termlabel = new System.Windows.Forms.Label();
+            this.Petlabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SendLetterButton = new System.Windows.Forms.Button();
             this.SellectUnitButton = new System.Windows.Forms.Button();
             this.UploadHomeworkButton = new System.Windows.Forms.Button();
             this.LogoutButton = new System.Windows.Forms.Button();
-            this.PassedUnits = new System.Windows.Forms.ListBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -101,15 +101,18 @@
             this.panel2.Size = new System.Drawing.Size(989, 237);
             this.panel2.TabIndex = 4;
             // 
-            // LastNmaelabel
+            // PassedUnits
             // 
-            this.LastNmaelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LastNmaelabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.LastNmaelabel.Location = new System.Drawing.Point(369, 33);
-            this.LastNmaelabel.Name = "LastNmaelabel";
-            this.LastNmaelabel.Size = new System.Drawing.Size(146, 38);
-            this.LastNmaelabel.TabIndex = 2;
-            this.LastNmaelabel.Text = "Lastname:";
+            this.PassedUnits.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
+            this.PassedUnits.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PassedUnits.ForeColor = System.Drawing.Color.Khaki;
+            this.PassedUnits.FormattingEnabled = true;
+            this.PassedUnits.ItemHeight = 25;
+            this.PassedUnits.Location = new System.Drawing.Point(343, 164);
+            this.PassedUnits.Name = "PassedUnits";
+            this.PassedUnits.Size = new System.Drawing.Size(172, 29);
+            this.PassedUnits.Sorted = true;
+            this.PassedUnits.TabIndex = 3;
             // 
             // Grouptypelabel
             // 
@@ -121,15 +124,25 @@
             this.Grouptypelabel.TabIndex = 2;
             this.Grouptypelabel.Text = "Group Type:";
             // 
-            // Petlabel
+            // LastNmaelabel
             // 
-            this.Petlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Petlabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.Petlabel.Location = new System.Drawing.Point(23, 113);
-            this.Petlabel.Name = "Petlabel";
-            this.Petlabel.Size = new System.Drawing.Size(146, 38);
-            this.Petlabel.TabIndex = 2;
-            this.Petlabel.Text = "Pet:";
+            this.LastNmaelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LastNmaelabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.LastNmaelabel.Location = new System.Drawing.Point(369, 33);
+            this.LastNmaelabel.Name = "LastNmaelabel";
+            this.LastNmaelabel.Size = new System.Drawing.Size(146, 38);
+            this.LastNmaelabel.TabIndex = 2;
+            this.LastNmaelabel.Text = "Lastname:";
+            // 
+            // Dormitorylabel
+            // 
+            this.Dormitorylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dormitorylabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.Dormitorylabel.Location = new System.Drawing.Point(699, 113);
+            this.Dormitorylabel.Name = "Dormitorylabel";
+            this.Dormitorylabel.Size = new System.Drawing.Size(225, 38);
+            this.Dormitorylabel.TabIndex = 2;
+            this.Dormitorylabel.Text = "Dormitory Code:";
             // 
             // Termlabel
             // 
@@ -141,15 +154,15 @@
             this.Termlabel.TabIndex = 2;
             this.Termlabel.Text = "Term:";
             // 
-            // Dormitorylabel
+            // Petlabel
             // 
-            this.Dormitorylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dormitorylabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.Dormitorylabel.Location = new System.Drawing.Point(699, 113);
-            this.Dormitorylabel.Name = "Dormitorylabel";
-            this.Dormitorylabel.Size = new System.Drawing.Size(225, 38);
-            this.Dormitorylabel.TabIndex = 2;
-            this.Dormitorylabel.Text = "Dormitory Code:";
+            this.Petlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Petlabel.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.Petlabel.Location = new System.Drawing.Point(23, 113);
+            this.Petlabel.Name = "Petlabel";
+            this.Petlabel.Size = new System.Drawing.Size(146, 38);
+            this.Petlabel.TabIndex = 2;
+            this.Petlabel.Text = "Pet:";
             // 
             // button1
             // 
@@ -184,6 +197,7 @@
             this.SendLetterButton.TabIndex = 5;
             this.SendLetterButton.Text = "Send Letter";
             this.SendLetterButton.UseVisualStyleBackColor = false;
+            this.SendLetterButton.Click += new System.EventHandler(this.SendLetterButton_Click);
             // 
             // SellectUnitButton
             // 
@@ -236,19 +250,6 @@
             this.LogoutButton.Text = "Logout";
             this.LogoutButton.UseVisualStyleBackColor = false;
             this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
-            // 
-            // PassedUnits
-            // 
-            this.PassedUnits.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
-            this.PassedUnits.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PassedUnits.ForeColor = System.Drawing.Color.Khaki;
-            this.PassedUnits.FormattingEnabled = true;
-            this.PassedUnits.ItemHeight = 25;
-            this.PassedUnits.Location = new System.Drawing.Point(343, 164);
-            this.PassedUnits.Name = "PassedUnits";
-            this.PassedUnits.Size = new System.Drawing.Size(172, 29);
-            this.PassedUnits.Sorted = true;
-            this.PassedUnits.TabIndex = 3;
             // 
             // pictureBox6
             // 
