@@ -12,7 +12,7 @@ namespace Hogwarts
     {
         public List<string> PassedUnits { get; set; }
         public int Term { get; set; }
-        public int DormitoryNumbere { get; set; }
+        public int DormitoryNumber { get; set; }
         public string letterToDumbledor { get; set; }
         public static List<Student> StudentsList { get; set; }=new List<Student>();
         

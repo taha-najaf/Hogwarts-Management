@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hogwarts
@@ -26,7 +20,7 @@ namespace Hogwarts
 
         private void TeacherInfoForm_Load(object sender, EventArgs e)
         {
-
+            showtable();
         }
 
         private void StudentButton_Click(object sender, EventArgs e)
@@ -62,6 +56,27 @@ namespace Hogwarts
             this.Close();
             DormitoryInfoForm dormitoryInfoForm = new DormitoryInfoForm();
             dormitoryInfoForm.ShowDialog();
+        }
+        private void showtable()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("First Name", typeof(string));
+            table.Columns.Add("Last Name", typeof(string));
+            table.Columns.Add("Date Of Birth", typeof(string));
+            table.Columns.Add("Father Name", typeof(string));
+            table.Columns.Add("Gender", typeof(string));
+            table.Columns.Add("Username", typeof(string));
+            table.Columns.Add("Password", typeof(string));
+            table.Columns.Add("Group Name");
+            table.Columns.Add("Pet");
+            foreach (var teacher in Teacher.TeacherList)
+            {
+                table.Rows.Add(teacher.FirstName, teacher.LastName, teacher.Birthday, teacher.FatherName, teacher.Gender
+                    , teacher.Username, teacher.Password, teacher.GroupName, teacher.Pet);
+            }
+
+            DataGridView_Teacher.DataSource = table;
+
         }
     }
 }

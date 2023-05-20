@@ -223,6 +223,16 @@ namespace Hogwarts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__2_4 {
+            get {
+                object obj = ResourceManager.GetObject("download (2)4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__20_ {
             get {
                 object obj = ResourceManager.GetObject("download (20)", resourceCulture);
@@ -253,9 +263,29 @@ namespace Hogwarts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__22_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (22)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__23_ {
             get {
                 object obj = ResourceManager.GetObject("download (23)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__23_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (23)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +313,29 @@ namespace Hogwarts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__25_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (25)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__26_ {
             get {
                 object obj = ResourceManager.GetObject("download (26)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__26_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (26)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

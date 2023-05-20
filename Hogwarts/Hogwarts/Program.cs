@@ -21,7 +21,7 @@ namespace Hogwarts
             Teacher teacher = new Teacher();
             Student student = new Student();
             List<AllowedPersons> persons = new List<AllowedPersons>();
-            Plant plant = new Plant();
+           // Plant plant = new Plant();
             List<Lesson> lessons = new List<Lesson>();
             //List<teacher> ListOfTeachers = new List<teacher>();
             //List<Student> ListOfStudents = new List<Student>();
@@ -126,7 +126,7 @@ namespace Hogwarts
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StudentsInfoForm());
+            Application.Run(new TeacherInfoForm());
 
 
         }
