@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfessorPanel));
             this.LogoutButton = new System.Windows.Forms.Button();
-            this.UploadHomeworkButton = new System.Windows.Forms.Button();
+            this.DefineHomeworkButton = new System.Windows.Forms.Button();
             this.DefineLessonButton = new System.Windows.Forms.Button();
             this.SetScoreButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -82,22 +82,23 @@
             this.LogoutButton.UseVisualStyleBackColor = false;
             this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
-            // UploadHomeworkButton
+            // DefineHomeworkButton
             // 
-            this.UploadHomeworkButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
-            this.UploadHomeworkButton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
-            this.UploadHomeworkButton.FlatAppearance.BorderSize = 3;
-            this.UploadHomeworkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.UploadHomeworkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.UploadHomeworkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.UploadHomeworkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UploadHomeworkButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.UploadHomeworkButton.Location = new System.Drawing.Point(921, 372);
-            this.UploadHomeworkButton.Name = "UploadHomeworkButton";
-            this.UploadHomeworkButton.Size = new System.Drawing.Size(192, 39);
-            this.UploadHomeworkButton.TabIndex = 13;
-            this.UploadHomeworkButton.Text = "Define Homework";
-            this.UploadHomeworkButton.UseVisualStyleBackColor = false;
+            this.DefineHomeworkButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
+            this.DefineHomeworkButton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
+            this.DefineHomeworkButton.FlatAppearance.BorderSize = 3;
+            this.DefineHomeworkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.DefineHomeworkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.DefineHomeworkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DefineHomeworkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefineHomeworkButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DefineHomeworkButton.Location = new System.Drawing.Point(921, 372);
+            this.DefineHomeworkButton.Name = "DefineHomeworkButton";
+            this.DefineHomeworkButton.Size = new System.Drawing.Size(192, 39);
+            this.DefineHomeworkButton.TabIndex = 13;
+            this.DefineHomeworkButton.Text = "Define Homework";
+            this.DefineHomeworkButton.UseVisualStyleBackColor = false;
+            this.DefineHomeworkButton.Click += new System.EventHandler(this.DefineHomeworkButton_Click);
             // 
             // DefineLessonButton
             // 
@@ -348,7 +349,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.LogoutButton);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.UploadHomeworkButton);
+            this.Controls.Add(this.DefineHomeworkButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.DefineLessonButton);
             this.Controls.Add(this.pictureBox7);
@@ -385,7 +386,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button LogoutButton;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button UploadHomeworkButton;
+        private System.Windows.Forms.Button DefineHomeworkButton;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button DefineLessonButton;
         private System.Windows.Forms.PictureBox pictureBox2;

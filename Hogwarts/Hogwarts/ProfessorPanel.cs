@@ -42,5 +42,11 @@ namespace Hogwarts
             AddScoreForm scoreForm = new AddScoreForm();
             scoreForm.ShowDialog();
         }
+
+        private void DefineHomeworkButton_Click(object sender, EventArgs e)
+        {
+            DefineHomeworkForm defineHomeworkForm = new DefineHomeworkForm();
+            defineHomeworkForm.ShowDialog();
+        }
     }
 }

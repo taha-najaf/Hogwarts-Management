@@ -79,6 +79,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector NET 8.0.33\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -202,6 +205,7 @@
       <DependentUpon>AddScoreForm.cs</DependentUpon>
     </Compile>
     <Compile Include="AllowedPersons.cs" />
+    <Compile Include="Assignment.cs" />
     <Compile Include="Botanical.cs" />
     <Compile Include="BreedType.cs" />
     <Compile Include="Chemistry.cs" />
@@ -218,6 +222,12 @@
       <DependentUpon>Courses.cs</DependentUpon>
     </Compile>
     <Compile Include="DBconnect.cs" />
+    <Compile Include="DefineHomeworkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineHomeworkForm.Designer.cs">
+      <DependentUpon>DefineHomeworkForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dormitory.cs" />
     <Compile Include="DormitoryInfoForm.cs">
       <SubType>Form</SubType>
@@ -329,6 +339,9 @@
     <EmbeddedResource Include="Courses.resx">
       <DependentUpon>Courses.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DefineHomeworkForm.resx">
+      <DependentUpon>DefineHomeworkForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DormitoryInfoForm.resx">
       <DependentUpon>DormitoryInfoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -381,6 +394,7 @@
     <EmbeddedResource Include="TrainForm.resx">
       <DependentUpon>TrainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Assignmentjson.json" />
     <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
