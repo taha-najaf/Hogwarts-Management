@@ -279,6 +279,12 @@
       <DependentUpon>RegisterStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Role.cs" />
+    <Compile Include="SellectUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellectUnit.Designer.cs">
+      <DependentUpon>SellectUnit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sport.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentPanel.cs">
@@ -350,6 +356,9 @@
     </Compile>
     <EmbeddedResource Include="RegisterStudent.resx">
       <DependentUpon>RegisterStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellectUnit.resx">
+      <DependentUpon>SellectUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentPanel.resx">
       <DependentUpon>StudentPanel.cs</DependentUpon>

@@ -50,6 +50,7 @@
             this.LoginoutButton.TabIndex = 20;
             this.LoginoutButton.Text = "Logout";
             this.LoginoutButton.UseVisualStyleBackColor = true;
+            this.LoginoutButton.Click += new System.EventHandler(this.LoginoutButton_Click);
             // 
             // LogoutPictureBox
             // 

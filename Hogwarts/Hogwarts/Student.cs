@@ -15,7 +15,8 @@ namespace Hogwarts
         public int DormitoryNumber { get; set; }
         public string letterToDumbledor { get; set; }
         public static List<Student> StudentsList { get; set; }=new List<Student>();
-        
+        public  List<Lesson> Curriculum { get; set; } = new List<Lesson>();
+
         public void SendLetterToDumbledor(string name, string family)
         {
             string request = $"You have new message from student with this firstname {name} and lastname {family}\n" +
@@ -23,9 +24,7 @@ namespace Hogwarts
                "I am writing to request permission to return to the city. ";
             Dumbledore.letterFromStudents.Add(request);
         }
-        public void SelectUnits(List<Lesson> lessons, List<Student> students, string name, String family)
-        {
-        }
+       
         //===========================database
         DBconnect connect =new DBconnect();
         //create function to add students to database

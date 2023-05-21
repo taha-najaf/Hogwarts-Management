@@ -27,5 +27,12 @@ namespace Hogwarts
             }
             dataGridView1.DataSource = table;
         }
+
+        private void LoginoutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            DumbledoreForm form = new DumbledoreForm();
+            form.ShowDialog();
+        }
     }
 }

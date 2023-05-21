@@ -215,6 +215,7 @@
             this.SellectUnitButton.TabIndex = 5;
             this.SellectUnitButton.Text = "Sellect Unit";
             this.SellectUnitButton.UseVisualStyleBackColor = false;
+            this.SellectUnitButton.Click += new System.EventHandler(this.SellectUnitButton_Click);
             // 
             // UploadHomeworkButton
             // 
