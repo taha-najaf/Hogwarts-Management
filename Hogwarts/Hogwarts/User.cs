@@ -39,5 +39,14 @@ namespace Hogwarts
             }
             return null;
         }
+        public static Student TakeStudentObject_ForScore(string Firstname, string LastName)
+        {
+            if (Student.StudentsList.Any(person => Firstname == person.FirstName && LastName == person.LastName))
+            {
+                var student = Student.StudentsList.FirstOrDefault(person => Firstname == person.FirstName && LastName == person.LastName);
+                return student;
+            }
+            return null;
+        }
     }
 }

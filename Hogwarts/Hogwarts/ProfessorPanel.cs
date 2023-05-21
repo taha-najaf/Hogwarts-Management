@@ -36,5 +36,11 @@ namespace Hogwarts
             LastNmaelabel.Text=LoginForm.professor.LastName;
             Grouptypelabel.Text = LoginForm.professor.GroupName.ToString();
         }
+
+        private void SetScoreButton_Click(object sender, EventArgs e)
+        {
+            AddScoreForm scoreForm = new AddScoreForm();
+            scoreForm.ShowDialog();
+        }
     }
 }

@@ -195,6 +195,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddScoreForm.Designer.cs">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AllowedPersons.cs" />
     <Compile Include="Botanical.cs" />
     <Compile Include="BreedType.cs" />
@@ -314,6 +320,9 @@
     </Compile>
     <Compile Include="TrainManagement.cs" />
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="AddScoreForm.resx">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CourseInfoForm.resx">
       <DependentUpon>CourseInfoForm.cs</DependentUpon>
     </EmbeddedResource>

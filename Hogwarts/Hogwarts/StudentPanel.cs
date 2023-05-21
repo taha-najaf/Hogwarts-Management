@@ -49,7 +49,9 @@ namespace Hogwarts
 
         private void SellectUnitButton_Click(object sender, EventArgs e)
         {
-
+            SellectUnitForm sellectUnitForm = new SellectUnitForm();
+            sellectUnitForm.ShowDialog();
+            this.Close();
         }
     }
 }

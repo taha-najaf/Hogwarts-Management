@@ -16,7 +16,7 @@ namespace Hogwarts
         public int PresentationSemester { get; set; }
         public string ProfessorFirstName { get; set; }
         public string ProfessorLastName { get; set; }
-        public double StudentGrade { get; set; }
+        public string StudentScore { get; set; }
         public Lesson(string cname,string cday,string ctime, int term, int capacity,int studentnum,string tfirst,string tlastname) 
         {
             this.CourseName = cname;

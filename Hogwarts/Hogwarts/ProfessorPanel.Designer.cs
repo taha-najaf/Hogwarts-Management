@@ -133,6 +133,7 @@
             this.SetScoreButton.TabIndex = 15;
             this.SetScoreButton.Text = "Set Score";
             this.SetScoreButton.UseVisualStyleBackColor = false;
+            this.SetScoreButton.Click += new System.EventHandler(this.SetScoreButton_Click);
             // 
             // button1
             // 
