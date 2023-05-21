@@ -189,7 +189,7 @@
       <FileName>Sport.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Hogwarts.Student" Collapsed="true">
+  <Class Name="Hogwarts.Student">
     <Position X="8" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAKAAAgAIIAAAAAgAggAABAAAAAAACAEEAQAQQAAAI=</HashCode>

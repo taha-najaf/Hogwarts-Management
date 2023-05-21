@@ -44,7 +44,8 @@ namespace Hogwarts
 
         private void SendLetterButton_Click(object sender, EventArgs e)
         {
-
+            LoginForm.student.SendLetterToDumbledor(LoginForm.student.FirstName,LoginForm.student.LastName);
+            MessageBox.Show("Letter Send to Dumbledore","Situation",MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void SellectUnitButton_Click(object sender, EventArgs e)
@@ -52,6 +53,11 @@ namespace Hogwarts
             SellectUnitForm sellectUnitForm = new SellectUnitForm();
             sellectUnitForm.ShowDialog();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
