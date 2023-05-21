@@ -241,6 +241,12 @@
     <Compile Include="Group.cs" />
     <Compile Include="GroupType.cs" />
     <Compile Include="ImageConvert.cs" />
+    <Compile Include="InboxOfDumbledore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InboxOfDumbledore.Designer.cs">
+      <DependentUpon>InboxOfDumbledore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lesson.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -319,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSendLetterToDumbledore.resx">
       <DependentUpon>FrmSendLetterToDumbledore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InboxOfDumbledore.resx">
+      <DependentUpon>InboxOfDumbledore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
