@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Hogwarts.AddScoreForm" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAASCAAFDAAgDCgAACAACAACIAAAAAQCAAAAA=</HashCode>
+      <FileName>AddScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.AllowedPersons" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAEAAAAAAAAAAAAAAQAAAEAAABAAE=</HashCode>
+      <FileName>AllowedPersons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Botanical" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Botanical.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Chemistry" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chemistry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.CourseInfoForm" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAkAAgAAACAQEBAggACACAoCAABCBACAgIABAQBQgAA=</HashCode>
+      <FileName>CourseInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Courses" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAGAwABAIAAKAgAECAAAqAABAgEAgAwAQgAg=</HashCode>
+      <FileName>Courses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.DBconnect" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAgAAAAAAAAAAQAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DBconnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Dormitory" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIggAQAAAQAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Dormitory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.DormitoryInfoForm" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JgkAIhAAASBQABAggACASA4CoQBCBACAgIUBEwDDgAA=</HashCode>
+      <FileName>DormitoryInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Dumbledore" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAAAAAAAAEAAICAAAAAAAAAAA=</HashCode>
+      <FileName>Dumbledore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.DumbledoreForm" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UBkAMJQAACEQFBAAgACgiA5iAABKFACAgMAAB4BjgAA=</HashCode>
+      <FileName>DumbledoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.ForestForm_add" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEIAAAAACAQEhAghASAAAgSAABCBACAgIAhAwBTgAA=</HashCode>
+      <FileName>ForestForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.FrmSendLetterToDumbledore" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAQCCAAABAAAACAAAICAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmSendLetterToDumbledore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Group" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAIAABAAgAAAAAA=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.ImageConvert" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageConvert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.InboxOfDumbledore" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQABAAAACAAAACAAgiAAAAAAABAAAAAAA=</HashCode>
+      <FileName>InboxOfDumbledore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Lesson" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQCQAQACAAAAAAAAAAAAAQACAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Lesson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.LoginForm" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAACAAAFAgASCAAACiAAAEgAAGAAAAAAAAQAA=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.ManageStudent" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8MAAQAABACAAgFALAAnEDkgiECAYBIADACAAhwABxAQ=</HashCode>
+      <FileName>ManageStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Occultism" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Occultism.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Person" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAACAAQAAAAAAAAAJAAACAAAAAAAEAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Plant" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAgAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.ProfessorPanel" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIxAQASAAARQAAAKAwAACgAAIAAAAQAAoAQBIABI=</HashCode>
+      <FileName>ProfessorPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Program" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.RegisterStudent" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIAAQAQBACAAgFAKAAnATEBiECAIBIBCgEAgBwABxAw=</HashCode>
+      <FileName>RegisterStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.SellectUnitForm" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAABBAAADAwAACAAAAAAAAAEAAAAQAAAE=</HashCode>
+      <FileName>SellectUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Sport" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Student" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAgAIIAAAAAgAggAABAAAAAAACAEEAQAQQAAAI=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.StudentPanel" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAhAACSBAABQAAAKAwAICICAIAAAgAABAAQBIAAE=</HashCode>
+      <FileName>StudentPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.StudentsInfoForm" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAkAAAgAQCAQEAEAgACASAoCAAACBAGAAMABEwBjgAA=</HashCode>
+      <FileName>StudentsInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Teacher" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAACACAAAIAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.TeacherInfoForm" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAQAAAACAQEBAgIACACAICAABCBACAgIABAwBTgAA=</HashCode>
+      <FileName>TeacherInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.TrainForm" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAkAABQAACAQEBAggACACAoCAABCAACAgAAREwBDAAA=</HashCode>
+      <FileName>TrainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.TrainManagement" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TrainManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.User" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Properties.Resources" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAggAQgAAAAQGBAIAgBEQAgCRQCAgCAEAABggADLYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hogwarts.Properties.Settings" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Hogwarts.BreedType" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>BreedType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hogwarts.GroupType" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAQAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GroupType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hogwarts.Pet" Collapsed="true">
+    <Position X="18.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pet.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hogwarts.Role" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
