@@ -100,3 +100,10 @@ D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\MySql.Data.xml
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.ManageStudent.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.Courses.resources
 D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.FrmSendLetterToDumbledore.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.AddScoreForm.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.DefineHomeworkForm.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.InboxOfDumbledore.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.SellectUnitForm.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\obj\Debug\Hogwarts.UploadHomework.resources
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\Newtonsoft.Json.dll
+D:\programming\Projects\Hogwarts\Hogwarts\Hogwarts\bin\Debug\Newtonsoft.Json.xml

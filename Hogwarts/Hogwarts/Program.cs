@@ -126,7 +126,7 @@ namespace Hogwarts
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSendLetterToDumbledore());
+            Application.Run(new UploadHomework());
 
 
         }

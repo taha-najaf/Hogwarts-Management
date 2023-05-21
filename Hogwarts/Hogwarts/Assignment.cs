@@ -11,6 +11,7 @@ namespace Hogwarts
             public string Title { get; set; }
             public string Description { get; set; }
             public DateTime Deadline { get; set; }
+
         public static List<Assignment> AllAssignments { get; set; }= new List<Assignment>();
         public Assignment(string title, string description, DateTime deadline)
         {

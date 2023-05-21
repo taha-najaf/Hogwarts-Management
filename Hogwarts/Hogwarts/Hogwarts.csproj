@@ -329,6 +329,12 @@
       <DependentUpon>TrainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TrainManagement.cs" />
+    <Compile Include="UploadHomework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadHomework.Designer.cs">
+      <DependentUpon>UploadHomework.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <EmbeddedResource Include="AddScoreForm.resx">
       <DependentUpon>AddScoreForm.cs</DependentUpon>
@@ -393,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TrainForm.resx">
       <DependentUpon>TrainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadHomework.resx">
+      <DependentUpon>UploadHomework.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Assignmentjson.json" />
     <None Include="ClassDiagram1.cd" />

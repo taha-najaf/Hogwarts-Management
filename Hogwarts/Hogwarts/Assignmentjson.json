@@ -1,3 +1,12 @@
-{
-
-}
+[
+  {
+    "Title": "Homework 1",
+    "Description": "Complete exercises 1-5",
+    "Deadline": "2023-05-31T23:59:59"
+  },
+  {
+    "Title": "Homework 2",
+    "Description": "Write an essay on a given topic",
+    "Deadline": "2023-06-07T23:59:59"
+  }
+]
