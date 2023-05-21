@@ -62,7 +62,8 @@ namespace Hogwarts
 
         private void UploadHomeworkButton_Click(object sender, EventArgs e)
         {
-
+            UploadHomework upload = new UploadHomework();
+            upload.ShowDialog();
         }
     }
 }

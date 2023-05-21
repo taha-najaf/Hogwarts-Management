@@ -55,15 +55,16 @@
             this.TextBox_Title.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TextBox_Title.FillColor = System.Drawing.Color.Gray;
             this.TextBox_Title.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBox_Title.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TextBox_Title.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox_Title.ForeColor = System.Drawing.Color.White;
             this.TextBox_Title.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBox_Title.Location = new System.Drawing.Point(35, 118);
-            this.TextBox_Title.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TextBox_Title.Location = new System.Drawing.Point(25, 103);
+            this.TextBox_Title.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.TextBox_Title.Name = "TextBox_Title";
             this.TextBox_Title.PasswordChar = '\0';
             this.TextBox_Title.PlaceholderText = "";
             this.TextBox_Title.SelectedText = "";
-            this.TextBox_Title.Size = new System.Drawing.Size(259, 54);
+            this.TextBox_Title.Size = new System.Drawing.Size(276, 84);
             this.TextBox_Title.TabIndex = 0;
             // 
             // label1
@@ -91,16 +92,17 @@
             this.DescriptionTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.DescriptionTextBox.FillColor = System.Drawing.Color.Gray;
             this.DescriptionTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DescriptionTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DescriptionTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescriptionTextBox.ForeColor = System.Drawing.Color.White;
             this.DescriptionTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DescriptionTextBox.Location = new System.Drawing.Point(35, 227);
-            this.DescriptionTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DescriptionTextBox.Location = new System.Drawing.Point(25, 232);
+            this.DescriptionTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.DescriptionTextBox.Multiline = true;
             this.DescriptionTextBox.Name = "DescriptionTextBox";
             this.DescriptionTextBox.PasswordChar = '\0';
             this.DescriptionTextBox.PlaceholderText = "";
             this.DescriptionTextBox.SelectedText = "";
-            this.DescriptionTextBox.Size = new System.Drawing.Size(329, 115);
+            this.DescriptionTextBox.Size = new System.Drawing.Size(370, 132);
             this.DescriptionTextBox.TabIndex = 0;
             // 
             // label2
@@ -108,7 +110,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Khaki;
-            this.label2.Location = new System.Drawing.Point(38, 176);
+            this.label2.Location = new System.Drawing.Point(39, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(193, 34);
             this.label2.TabIndex = 1;

@@ -40,7 +40,13 @@ namespace Hogwarts
                 // Populate the combo box with assignments
                 cmbAssignments.DataSource = assignmentList;
                 cmbAssignments.DisplayMember = "Title";
-                cmbAssignments.ValueMember = "Title"; // 
+                cmbAssignments.ValueMember = "Title";
+
+                // Unregister the event handler to prevent multiple registrations
+                cmbAssignments.SelectedIndexChanged -= cmbAssignments_SelectedIndexChanged;
+
+                // Register the event handler for the SelectedIndexChanged event of the combo box
+                cmbAssignments.SelectedIndexChanged += cmbAssignments_SelectedIndexChanged;
             }
             else
             {
@@ -50,7 +56,14 @@ namespace Hogwarts
 
         private void cmbAssignments_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Get the selected assignment from the combo box
+            Assignment selectedAssignment = cmbAssignments.SelectedItem as Assignment;
 
+            // Display the description in a MessageBox
+            if (selectedAssignment != null)
+            {
+                MessageBox.Show(selectedAssignment.Description, "Assignment Description");
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

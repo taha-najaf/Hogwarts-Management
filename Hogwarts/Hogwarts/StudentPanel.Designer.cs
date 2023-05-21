@@ -84,10 +84,11 @@
             // label2
             // 
             this.label2.AutoEllipsis = true;
+            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(485, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(438, 67);
+            this.label2.Size = new System.Drawing.Size(402, 38);
             this.label2.TabIndex = 3;
             this.label2.Text = "Welcome to Student Panel";
             // 
@@ -188,6 +189,7 @@
             // 
             // SendLetterButton
             // 
+            this.SendLetterButton.AutoSize = true;
             this.SendLetterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.SendLetterButton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
             this.SendLetterButton.FlatAppearance.BorderSize = 3;
@@ -206,6 +208,7 @@
             // 
             // SellectUnitButton
             // 
+            this.SellectUnitButton.AutoSize = true;
             this.SellectUnitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.SellectUnitButton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
             this.SellectUnitButton.FlatAppearance.BorderSize = 3;
@@ -224,6 +227,7 @@
             // 
             // UploadHomeworkButton
             // 
+            this.UploadHomeworkButton.AutoSize = true;
             this.UploadHomeworkButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.UploadHomeworkButton.FlatAppearance.BorderColor = System.Drawing.Color.Khaki;
             this.UploadHomeworkButton.FlatAppearance.BorderSize = 3;
@@ -320,7 +324,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(626, 327);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 45);
+            this.label1.Size = new System.Drawing.Size(280, 45);
             this.label1.TabIndex = 15;
             this.label1.Text = "Courses";
             // 
@@ -342,7 +346,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(2, 469);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(86, 69);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 
@@ -415,6 +419,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
