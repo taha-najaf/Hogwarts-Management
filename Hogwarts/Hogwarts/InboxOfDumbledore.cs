@@ -19,13 +19,13 @@ namespace Hogwarts
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataTable table = new DataTable();
-            table.Columns.Add("Letters");
-            foreach(var letter in Dumbledore.letterFromStudents)
-            {
-                table.Rows.Add(letter);
-            }
-            dataGridView1.DataSource = table;
+            //DataTable table = new DataTable();
+            //table.Columns.Add("Letters");
+            //foreach(var letter in Dumbledore.letterFromStudents)
+            //{
+            //    table.Rows.Add(letter);
+            //}
+            //dataGridView1.DataSource = table;
         }
 
         private void LoginoutButton_Click(object sender, EventArgs e)
@@ -33,6 +33,16 @@ namespace Hogwarts
             this.Close();
             DumbledoreForm form = new DumbledoreForm();
             form.ShowDialog();
+        }
+
+        private void listBox_letters_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InboxOfDumbledore_Load(object sender, EventArgs e)
+        {
+            listBox_letters.DataSource = Dumbledore.letterFromStudents;
         }
     }
 }

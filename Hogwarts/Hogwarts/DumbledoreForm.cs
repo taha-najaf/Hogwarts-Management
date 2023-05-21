@@ -123,6 +123,8 @@ namespace Hogwarts
 
         private void button1_Click(object sender, EventArgs e)
         {
+            InboxOfDumbledore inbox = new InboxOfDumbledore();
+            inbox.ShowDialog();
 
         }
 

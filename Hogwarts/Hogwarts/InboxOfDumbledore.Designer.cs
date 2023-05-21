@@ -31,10 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InboxOfDumbledore));
             this.LoginoutButton = new System.Windows.Forms.Button();
             this.LogoutPictureBox = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.listBox_letters = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginoutButton
@@ -64,17 +63,6 @@
             this.LogoutPictureBox.TabIndex = 19;
             this.LogoutPictureBox.TabStop = false;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(65, 68);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(686, 287);
-            this.dataGridView1.TabIndex = 21;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -86,23 +74,36 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Letters From students ";
             // 
+            // listBox_letters
+            // 
+            this.listBox_letters.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_letters.ForeColor = System.Drawing.Color.SteelBlue;
+            this.listBox_letters.FormattingEnabled = true;
+            this.listBox_letters.ItemHeight = 29;
+            this.listBox_letters.Location = new System.Drawing.Point(12, 106);
+            this.listBox_letters.Name = "listBox_letters";
+            this.listBox_letters.Size = new System.Drawing.Size(776, 236);
+            this.listBox_letters.TabIndex = 23;
+            this.listBox_letters.SelectedIndexChanged += new System.EventHandler(this.listBox_letters_SelectedIndexChanged);
+            // 
             // InboxOfDumbledore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox_letters);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.LoginoutButton);
             this.Controls.Add(this.LogoutPictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InboxOfDumbledore";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "InboxOfDumbledore";
+            this.Load += new System.EventHandler(this.InboxOfDumbledore_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LogoutPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,7 +113,7 @@
 
         private System.Windows.Forms.Button LoginoutButton;
         private System.Windows.Forms.PictureBox LogoutPictureBox;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox listBox_letters;
     }
 }
