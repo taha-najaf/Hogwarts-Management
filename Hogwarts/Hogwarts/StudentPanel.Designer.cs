@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentPanel));
             this.panel1 = new System.Windows.Forms.Panel();
             this.FirstNamelabel = new System.Windows.Forms.Label();
@@ -44,19 +47,20 @@
             this.SellectUnitButton = new System.Windows.Forms.Button();
             this.UploadHomeworkButton = new System.Windows.Forms.Button();
             this.LogoutButton = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.DataGridView_Lessons = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Lessons)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -96,9 +100,9 @@
             this.panel2.Controls.Add(this.Termlabel);
             this.panel2.Controls.Add(this.Petlabel);
             this.panel2.Controls.Add(this.FirstNamelabel);
-            this.panel2.Location = new System.Drawing.Point(261, 160);
+            this.panel2.Location = new System.Drawing.Point(270, 90);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(989, 237);
+            this.panel2.Size = new System.Drawing.Size(989, 203);
             this.panel2.TabIndex = 4;
             // 
             // PassedUnits
@@ -252,15 +256,6 @@
             this.LogoutButton.UseVisualStyleBackColor = false;
             this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Hogwarts.Properties.Resources.download__2_2;
-            this.pictureBox6.Location = new System.Drawing.Point(1054, 403);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(196, 269);
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Khaki;
@@ -316,13 +311,80 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // DataGridView_Lessons
+            // 
+            this.DataGridView_Lessons.AllowUserToAddRows = false;
+            this.DataGridView_Lessons.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Lessons.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DataGridView_Lessons.BackgroundColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_Lessons.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DataGridView_Lessons.ColumnHeadersHeight = 30;
+            this.DataGridView_Lessons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Khaki;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_Lessons.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DataGridView_Lessons.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Lessons.Location = new System.Drawing.Point(270, 389);
+            this.DataGridView_Lessons.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DataGridView_Lessons.Name = "DataGridView_Lessons";
+            this.DataGridView_Lessons.RowHeadersVisible = false;
+            this.DataGridView_Lessons.RowHeadersWidth = 51;
+            this.DataGridView_Lessons.RowTemplate.Height = 80;
+            this.DataGridView_Lessons.Size = new System.Drawing.Size(980, 273);
+            this.DataGridView_Lessons.TabIndex = 14;
+            this.DataGridView_Lessons.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Lessons.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DataGridView_Lessons.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Lessons.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DataGridView_Lessons.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_Lessons.ThemeStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DataGridView_Lessons.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridView_Lessons.ThemeStyle.HeaderStyle.Height = 30;
+            this.DataGridView_Lessons.ThemeStyle.ReadOnly = false;
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.Height = 80;
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_Lessons.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // label1
+            // 
+            this.label1.AutoEllipsis = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(626, 327);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 45);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Courses";
+            // 
             // StudentPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(1262, 673);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.DataGridView_Lessons);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.LogoutButton);
             this.Controls.Add(this.pictureBox4);
@@ -344,12 +406,12 @@
             this.Text = "StudentPanel";
             this.Load += new System.EventHandler(this.StudentPanel_Load);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Lessons)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -376,6 +438,7 @@
         private System.Windows.Forms.Button LogoutButton;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.ListBox PassedUnits;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridView_Lessons;
+        private System.Windows.Forms.Label label1;
     }
 }

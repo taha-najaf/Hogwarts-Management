@@ -21,7 +21,7 @@ namespace Hogwarts
         {
             table();
         }
-        private void table()
+        public void table()
         {
             DataTable table = new DataTable();
             table.Columns.Add("Id",typeof(int));
@@ -54,6 +54,8 @@ namespace Hogwarts
                     if (lesson.CourseHour != Lesson.AllLessons[id-1].CourseHour && lesson.CourseName != Lesson.AllLessons[id-1].CourseName)
                     {
                         LoginForm.student.Curriculum.Add(Lesson.AllLessons[id-1]);
+                        Lesson.AllLessons[id-1].Capacity--;
+                        Lesson.AllLessons[id - 1].NumberOfStudents++;
                         
                     }
                     else if (lesson.CourseHour == Lesson.AllLessons[id-1].CourseHour)
